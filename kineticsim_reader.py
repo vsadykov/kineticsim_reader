@@ -253,8 +253,8 @@ def generate_histogram(vxp, vyp, resl, istart, iend):
     hist - two-dimensional histogram of particle distribution
     vx_edges, vy_edges - bins used for the histogram
     """
-    vx_edges = np.arange(-2.0, 2.0 + resl, resl)
-    vy_edges = np.arange(-2.0, 2.0 + resl, resl)
+    vx_edges = np.arange(-2.5, 2.5 + resl, resl)
+    vy_edges = np.arange(-2.5, 2.5 + resl, resl)
     hist, vx_edges, vy_edges = np.histogram2d(vxp[:,istart:iend].flatten(), vyp[:,istart:iend].flatten(), \
                                               bins=(vx_edges, vy_edges))
     return hist, vx_edges, vy_edges
@@ -302,9 +302,14 @@ def calculate_anisotropy_moments(vxp, vyp, vzp, istart, iend):
     """
     # computing moments
     moments = np.zeros([4,3], dtype=float)
-    for mn in range (0, 4, 1):
+    # 1st moment will be computed with respect to 0th point as reference instead of the mean
+    mn = 0
+    moments[mn,0] = np.mean(vxp[:,istart:iend].flatten())
+    moments[mn,1] = np.mean(vyp[:,istart:iend].flatten())
+    moments[mn,2] = np.mean(vzp[:,istart:iend].flatten())
+    for mn in range (1, 4, 1):
         moments[mn,0] = moment(vxp[:,istart:iend].flatten(), moment=mn+1)
         moments[mn,1] = moment(vyp[:,istart:iend].flatten(), moment=mn+1)
         moments[mn,2] = moment(vzp[:,istart:iend].flatten(), moment=mn+1)
-    anisotropy = (moments[1,1] + moments[1,2])/moments[1,0]
+    anisotropy = (moments[1,1] + moments[1,2])/moments[1,0]/2.0
     return anisotropy, moments

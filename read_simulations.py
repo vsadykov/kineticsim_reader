@@ -7,10 +7,17 @@ import kineticsim_reader as kr
 import pickle
 import os
 
-
+# names of the simulation file and the folder
 simfile = '../particles.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000'
 foldername = './outputs/outputs.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000/'
+# number of species
 kspi = 4
+# start and end index for protons
+ipstart = 0
+ipend = 2
+# start and end index for He
+ihstart = 2
+ihend = 4
 
 
 print("-------------- HEADER AND FILE INFORMATION -----------------")
@@ -32,13 +39,13 @@ times_all = []
 for fname in fnames:
     timfrm, timep, xp, yp, vxp, vyp, vzp = kr.retrieve_simulationframe(foldername + fname)
     # generating histograms for proton distributions
-    hist, vx_edges, vy_edges = kr.generate_histogram(vxp, vyp, 0.02, 0, 2)
+    hist, vx_edges, vy_edges = kr.generate_histogram(vxp, vyp, 0.02, ipstart, ipend)
     kr.visualize_histogram(hist, vx_edges, vy_edges, 'Proton VDF', to_image = True, imfile = foldername + 'Proton_VDF.' + fname[0:-4] + '.png')
     data = {'timeframe':timfrm, 'timep':timep, 'hist':hist, 'vx_edges':vx_edges, 'vy_edges':vy_edges}
     histfile = foldername + 'Proton_VDF.' + fname[0:-4] + '.pkl'
     with open(histfile, "wb") as outfile:
         pickle.dump(data, outfile)
-    anisotropy, moments = kr.calculate_anisotropy_moments(vxp, vyp, vzp, 0, 2)
+    anisotropy, moments = kr.calculate_anisotropy_moments(vxp, vyp, vzp, ipstart, ipend)
     print("Proton Anisotropy for t = " + str(timep[0]) + " is " + str(anisotropy))
     anisotropies_all.append(anisotropy)
     moments_all.append(moments)
@@ -55,13 +62,13 @@ times_all = []
 for fname in fnames:
     timfrm, timep, xp, yp, vxp, vyp, vzp = kr.retrieve_simulationframe(foldername + fname)
     # generating histograms for proton distributions
-    hist, vx_edges, vy_edges = kr.generate_histogram(vxp, vyp, 0.02, 2, 4)
+    hist, vx_edges, vy_edges = kr.generate_histogram(vxp, vyp, 0.02, ihstart, ihend)
     kr.visualize_histogram(hist, vx_edges, vy_edges, 'He VDF', to_image = True, imfile = foldername + 'He_VDF.' + fname[0:-4] + '.png')
     data = {'timeframe':timfrm, 'timep':timep, 'hist':hist, 'vx_edges':vx_edges, 'vy_edges':vy_edges}
     histfile = foldername + 'He_VDF.' + fname[0:-4] + '.pkl'
     with open(histfile, "wb") as outfile:
         pickle.dump(data, outfile)
-    anisotropy, moments = kr.calculate_anisotropy_moments(vxp, vyp, vzp, 2, 4)
+    anisotropy, moments = kr.calculate_anisotropy_moments(vxp, vyp, vzp, ihstart, ihend)
     print("Alpha Anisotropy for t = " + str(timep[0]) + " is " + str(anisotropy))
     anisotropies_all.append(anisotropy)
     moments_all.append(moments)
