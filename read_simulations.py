@@ -8,16 +8,16 @@ import pickle
 import os
 
 # names of the simulation file and the folder
-simfile = '../particles.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000'
-foldername = './outputs/outputs.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000/'
+simfile = '../particles.d11_He++v2_256_256ppc_iden3v0m0.5pwr6eps0'
+foldername = './outputs/outputs.d11_He++v2_256_256ppc_iden3v0m0.5pwr6eps0/'
 # number of species
-kspi = 4
+kspi = 2
 # start and end index for protons
 ipstart = 0
-ipend = 2
+ipend = 1
 # start and end index for He
-ihstart = 2
-ihend = 4
+ihstart = 1
+ihend = 2
 
 
 print("-------------- HEADER AND FILE INFORMATION -----------------")

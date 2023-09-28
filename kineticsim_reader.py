@@ -253,8 +253,8 @@ def generate_histogram(vxp, vyp, resl, istart, iend):
     hist - two-dimensional histogram of particle distribution
     vx_edges, vy_edges - bins used for the histogram
     """
-    vx_edges = np.arange(-2.5, 2.5 + resl, resl)
-    vy_edges = np.arange(-2.5, 2.5 + resl, resl)
+    vx_edges = np.arange(-3.5, 3.5 + resl, resl)
+    vy_edges = np.arange(-3.5, 3.5 + resl, resl)
     hist, vx_edges, vy_edges = np.histogram2d(vxp[:,istart:iend].flatten(), vyp[:,istart:iend].flatten(), \
                                               bins=(vx_edges, vy_edges))
     return hist, vx_edges, vy_edges
