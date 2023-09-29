@@ -260,7 +260,7 @@ def generate_histogram(vxp, vyp, resl, istart, iend):
     return hist, vx_edges, vy_edges
 
 
-def visualize_histogram(hist, vx_edges, vy_edges, title, to_image = False, imfile = 'test.png'):
+def visualize_histogram(hist, vx_edges, vy_edges, title, to_image = False, imfile = 'test.png', logflag=False):
     """
     The routine visualizes the histogram.
     Input:
@@ -272,10 +272,16 @@ def visualize_histogram(hist, vx_edges, vy_edges, title, to_image = False, imfil
     """
     matplotlib.rcParams.update({'font.size':10})
     im, ax = plt.subplots(1, 1, figsize = (7, 5), dpi=150)
-    fig = ax.imshow(hist.T, interpolation='nearest', origin='lower', \
-              extent=[vx_edges[0], vx_edges[-1], vy_edges[0], vy_edges[-1]], cmap='rainbow')
-    ax.set(xlabel = r'Vx / V$_{A}$', ylabel = r'Vy / V$_{A}$', title = title)
-    cbar = im.colorbar(fig, ax=ax, label='# of particles')
+    if (logflag == False):
+        fig = ax.imshow(hist.T, interpolation='nearest', origin='lower', \
+                  extent=[vx_edges[0], vx_edges[-1], vy_edges[0], vy_edges[-1]], cmap='rainbow')
+        ax.set(xlabel = r'Vx / V$_{A}$', ylabel = r'Vy / V$_{A}$', title = title)
+        cbar = im.colorbar(fig, ax=ax, label='# of particles')
+    else:
+        fig = ax.imshow(np.log10(hist.T+1), interpolation='nearest', origin='lower', \
+                  extent=[vx_edges[0], vx_edges[-1], vy_edges[0], vy_edges[-1]], cmap='rainbow')
+        ax.set(xlabel = r'Vx / V$_{A}$', ylabel = r'Vy / V$_{A}$', title = title)
+        cbar = im.colorbar(fig, ax=ax, label='log10(# of particles + 1)')
     plt.tight_layout()
     if (to_image):
         plt.savefig(imfile)
