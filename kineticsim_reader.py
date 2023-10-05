@@ -147,6 +147,7 @@ def return_selectedframe(filename, framenumber, kspi=4):
             vxp[0:npts[i],i] = np.copy(var[2::5])
             vyp[0:npts[i],i] = np.copy(var[3::5])
             vzp[0:npts[i],i] = np.copy(var[4::5])
+        print('Done.')
     return timfrm, timep, xp, yp, vxp, vyp, vzp
 
 
@@ -239,7 +240,7 @@ def retrieve_simulationframe(filename):
     return timfrm, timep, xp, yp, vxp, vyp, vzp
 
 
-def generate_histogram(vxp, vyp, resl, istart, iend):
+def generate_histogram(vxp, vyp, resl, istart=0, iend=2):
     """
     The routine constructs a histogram based on the velocity distributions and
     resolution provided.
