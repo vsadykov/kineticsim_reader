@@ -240,7 +240,7 @@ def retrieve_simulationframe(filename):
     return timfrm, timep, xp, yp, vxp, vyp, vzp
 
 
-def generate_histogram(vxp, vyp, resl, istart=0, iend=2):
+def generate_histogram(vxp, vyp, resl, kspi_indexes = [0]):
     """
     The routine constructs a histogram based on the velocity distributions and
     resolution provided.
@@ -248,15 +248,14 @@ def generate_histogram(vxp, vyp, resl, istart=0, iend=2):
     vxp - X-velocities of particles (along the external magnetic field)
     vyp - Y-velocities of particles
     resl - resolution (in Alfven speed units) of the histogram
-    istart - start index for the histogram construction (population index)
-    iend - start index for the histogram construction (population index)
+    kspi_indexes - indexes of species to generate the histogram for. Default is 0 only.
     Output:
     hist - two-dimensional histogram of particle distribution
     vx_edges, vy_edges - bins used for the histogram
     """
     vx_edges = np.arange(-3.5, 3.5 + resl, resl)
     vy_edges = np.arange(-3.5, 3.5 + resl, resl)
-    hist, vx_edges, vy_edges = np.histogram2d(vxp[:,istart:iend].flatten(), vyp[:,istart:iend].flatten(), \
+    hist, vx_edges, vy_edges = np.histogram2d(vxp[:,kspi_indexes].flatten(), vyp[:,kspi_indexes].flatten(), \
                                               bins=(vx_edges, vy_edges))
     return hist, vx_edges, vy_edges
 
@@ -293,15 +292,14 @@ def visualize_histogram(hist, vx_edges, vy_edges, title, to_image = False, imfil
     return
 
 
-def calculate_anisotropy_moments(vxp, vyp, vzp, istart, iend):
+def calculate_anisotropy_moments(vxp, vyp, vzp, kspi_indexes = [0]):
     """
     The routine calculates anisotropy of the VDF.
     Input:
     vxp - X-velocities of particles (along the external magnetic field)
     vyp - Y-velocities of particles
     vzp - Z-velocities of particles
-    istart - start index for the histogram construction (population index)
-    iend - start index for the histogram construction (population index)
+    kspi_indexes - indexes of species to generate the histogram for. Default is 0 only.
     Output:
     anisotropy - anisotropy of the VDF
     moments[mn,i] - an array of moments where mn is a moment number and i is
@@ -311,12 +309,12 @@ def calculate_anisotropy_moments(vxp, vyp, vzp, istart, iend):
     moments = np.zeros([4,3], dtype=float)
     # 1st moment will be computed with respect to 0th point as reference instead of the mean
     mn = 0
-    moments[mn,0] = np.mean(vxp[:,istart:iend].flatten())
-    moments[mn,1] = np.mean(vyp[:,istart:iend].flatten())
-    moments[mn,2] = np.mean(vzp[:,istart:iend].flatten())
+    moments[mn,0] = np.mean(vxp[:,kspi_indexes].flatten())
+    moments[mn,1] = np.mean(vyp[:,kspi_indexes].flatten())
+    moments[mn,2] = np.mean(vzp[:,kspi_indexes].flatten())
     for mn in range (1, 4, 1):
-        moments[mn,0] = moment(vxp[:,istart:iend].flatten(), moment=mn+1)
-        moments[mn,1] = moment(vyp[:,istart:iend].flatten(), moment=mn+1)
-        moments[mn,2] = moment(vzp[:,istart:iend].flatten(), moment=mn+1)
+        moments[mn,0] = moment(vxp[:,kspi_indexes].flatten(), moment=mn+1)
+        moments[mn,1] = moment(vyp[:,kspi_indexes].flatten(), moment=mn+1)
+        moments[mn,2] = moment(vzp[:,kspi_indexes].flatten(), moment=mn+1)
     anisotropy = (moments[1,1] + moments[1,2])/moments[1,0]/2.0
     return anisotropy, moments
