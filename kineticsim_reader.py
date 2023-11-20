@@ -18,7 +18,7 @@ import pickle
 from scipy.stats import moment
 
 
-def show_fileinfo(filename,kspi=4):
+def show_fileinfo(filename, kspi=4):
     """
     The routine presents the header information and informs about the number
     of snapshots available for the analysis. The routine also allows one to
@@ -113,7 +113,6 @@ def return_selectedframe(filename, framenumber, kspi=4):
     """
     # reading the file header
     with open(filename, 'rb') as file:
-        print('Reading the file...')
         # setting up some parameters
         ihparm = 19     # number of parameters stored in the header
         ihdr = 19 + 8*kspi
@@ -147,7 +146,6 @@ def return_selectedframe(filename, framenumber, kspi=4):
             vxp[0:npts[i],i] = np.copy(var[2::5])
             vyp[0:npts[i],i] = np.copy(var[3::5])
             vzp[0:npts[i],i] = np.copy(var[4::5])
-        print('Done.')
     return timfrm, timep, xp, yp, vxp, vyp, vzp
 
 
@@ -240,7 +238,7 @@ def retrieve_simulationframe(filename):
     return timfrm, timep, xp, yp, vxp, vyp, vzp
 
 
-def generate_histogram(vxp, vyp, resl, kspi_indexes = [0]):
+def generate_histogram(vxp, vyp, resl=0.05, xlim=[-3.5,3.5], ylim=[-3.5,3.5], kspi_indexes = [0]):
     """
     The routine constructs a histogram based on the velocity distributions and
     resolution provided.
@@ -253,8 +251,8 @@ def generate_histogram(vxp, vyp, resl, kspi_indexes = [0]):
     hist - two-dimensional histogram of particle distribution
     vx_edges, vy_edges - bins used for the histogram
     """
-    vx_edges = np.arange(-3.5, 3.5 + resl, resl)
-    vy_edges = np.arange(-3.5, 3.5 + resl, resl)
+    vx_edges = np.arange(xlim[0], xlim[1] + resl, resl)
+    vy_edges = np.arange(ylim[0], ylim[1] + resl, resl)
     hist, vx_edges, vy_edges = np.histogram2d(vxp[:,kspi_indexes].flatten(), vyp[:,kspi_indexes].flatten(), \
                                               bins=(vx_edges, vy_edges))
     return hist, vx_edges, vy_edges
@@ -318,3 +316,85 @@ def calculate_anisotropy_moments(vxp, vyp, vzp, kspi_indexes = [0]):
         moments[mn,2] = moment(vzp[:,kspi_indexes].flatten(), moment=mn+1)
     anisotropy = (moments[1,1] + moments[1,2])/moments[1,0]/2.0
     return anisotropy, moments
+
+
+def calculate_anisotropies_moments_selectedframes(filename, framestart = 0, frameend = -1, kspi=4, \
+                                                  kspi_indexes_protons = [0,1], kspi_indexes_he = [2,3]):
+    """
+    The routine calculates anisotroies and moments for both proton and He populations
+    for the selected range of frames
+    Input:
+    filename - the relative path to the file containing the result of hybrid
+    framestart (optional) - the frame to start from; the default is zero
+    frameend (optional) - the frame to end at; the default is -1. The frame equal to -1
+    means that the file will be read until the end.
+    kspi - number of species; default number is 4
+    kspi_indexes_protons - indexes of proton species. Default is [0,1]
+    kspi_indexes_he - indexes of He species. Default is [2,3]
+    Output:
+    anisotropies_p[t] - anisotropy of the proton VDFs. t is a frame number
+    moments_p[t,mn,i] - an array of proton moments where mn is a moment number, i is
+    a spatial dimension (x, y, or z), and t is a frame number
+    anisotropies_he[t] - anisotropy of the proton VDFs. t is a frame number
+    moments_he[t,mn,i] - an array of proton moments where mn is a moment number, i is
+    a spatial dimension (x, y, or z), and t is a frame number
+    timing[t] - times (in proton gyroperiods) of the saved frames
+    """
+    # reading the file header
+    with open(filename, 'rb') as file:
+        print('Reading the file...')
+        # setting up some parameters
+        ihparm = 19     # number of parameters stored in the header
+        ihdr = 19 + 8*kspi
+        # reading the header information
+        header = np.empty([ihdr], dtype=np.float32)
+        header = np.fromfile(file, dtype=np.float32, count=len(header))
+        # understanding how many frames are in the file
+        nis = int(header[6])
+        npts = np.empty([nis], dtype=np.int32)
+        for _is in range (0, nis, 1):
+            ihs = ihparm + 8*_is
+            npts[_is] = np.int32(header[ihs + 7])
+        nptsm=np.int32(np.amax(npts))
+        xp = np.empty([nptsm,nis], dtype=np.float32)
+        yp = np.empty([nptsm,nis], dtype=np.float32)
+        vxp = np.empty([nptsm,nis], dtype=np.float32)
+        vyp = np.empty([nptsm,nis], dtype=np.float32)
+        vzp = np.empty([nptsm,nis], dtype=np.float32)
+        framecur = 1
+        anisotropies_p = []
+        moments_p = []
+        anisotropies_he = []
+        moments_he = []
+        timing = []
+        while (True):
+            timfrm = np.fromfile(file, dtype=np.float32, count=1)
+            timep = np.fromfile(file, dtype=np.float32, count=1)
+            for i in range (0, nis, 1):
+                var = np.empty([5*npts[i]], dtype=np.float32)
+                var = np.fromfile(file, dtype=np.float32, count=len(var))
+                xp[0:npts[i],i] = np.copy(var[0::5])
+                yp[0:npts[i],i] = np.copy(var[1::5])
+                vxp[0:npts[i],i] = np.copy(var[2::5])
+                vyp[0:npts[i],i] = np.copy(var[3::5])
+                vzp[0:npts[i],i] = np.copy(var[4::5])
+            if ( (framecur >= framestart) and ( (framecur <= frameend) or (frameend == -1) ) ):
+                _anisotropies_p, _moments_p = calculate_anisotropy_moments(vxp, vyp, vzp, kspi_indexes = kspi_indexes_protons)
+                _anisotropies_he, _moments_he = calculate_anisotropy_moments(vxp, vyp, vzp, kspi_indexes = kspi_indexes_he)
+                anisotropies_p.append(_anisotropies_p)
+                moments_p.append(_moments_p)
+                anisotropies_he.append(_anisotropies_he)
+                moments_he.append(_moments_he)
+                timing.append(timep)
+                print("MOMENTS READ FOR FRAME: " + str(framecur))
+            framecur += 1
+            if ( (timfrm[0] + header[11] >= header[3]) or ( (framecur > frameend) and (frameend != -1) ) ):
+                break
+    anisotropies_p = np.array(anisotropies_p, dtype=float)
+    moments_p = np.array(moments_p, dtype=float)
+    anisotropies_he = np.array(anisotropies_he, dtype=float)
+    moments_he = np.array(moments_he, dtype=float)
+    timing = np.array(timing, dtype=float)
+    return anisotropies_p, moments_p, anisotropies_he, moments_he, timing
+    
+    
