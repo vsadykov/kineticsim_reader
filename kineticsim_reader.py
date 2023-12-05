@@ -18,7 +18,7 @@ import pickle
 from scipy.stats import moment
 
 
-def show_fileinfo(filename, kspi=4):
+def show_fileinfo(filename, kspi=4, nsim_out = False):
     """
     The routine presents the header information and informs about the number
     of snapshots available for the analysis. The routine also allows one to
@@ -86,9 +86,12 @@ def show_fileinfo(filename, kspi=4):
             print('Frame record in file:', framecur, ', Frame number:', timfrm[0], ', Frame timing:', timep[0])
             framecur += 1
             if (timfrm[0] + header[11] >= header[3]): break
-    print('Total number of frames:', framecur)
+    print('Total number of frames:', framecur-1)
     # returning the header information
-    return header
+    if (nsim_out == True):
+        return framecur-1, header
+    else:
+        return header
 
 
 def return_selectedframe(filename, framenumber, kspi=4):

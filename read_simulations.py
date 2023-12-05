@@ -1,0 +1,85 @@
+# This python file is used to read the simulations and to preprocess them into ML-compatible format
+# The idea behind this script is to create the high-resolution, spanning VDFs for more post-processing,
+# as well as the calculation of the moments directly from the particles. The following properties for 
+# high-resolution VDF generation will be assumed:
+# - VDFs will span from [-4.0,4.0] with the step of 0.025, resulting in 320x320 array for each
+#   time step of the simulations;
+# - VDFs will all be saved into a single 3D array for every specie
+# - moments and simulation parameters will be stored in the same tiem sequence as well
+# - no image generation will be done at this point; all will be done during post-processing
+# - processing will be done for all simulation filed within the same run
+
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+import kineticsim_reader as kr
+import pickle
+import os
+
+# location of simulation files (assumed to be all in one folder)
+simfiles_folder = '../'
+# location to save the results of readings
+savefiles_folder = './processing_results/'
+# simulation filename, number of species, proton specie indexes, he specie indexes
+simfiles_spec = [['particles.d11_A0.5Hepp_beta0.5eps1e-4_256',2,[0],[1]],\
+                 ['particles.d11_A0.75Hepp_beta1_256',2,[0],[1]],\
+                 ['particles.d11_E11Ap3.3Aa2.0Vd0.42',2,[0],[1]],\
+                 ['particles.d11_E11Ap4.3Aa1.6',2,[0],[1]],\
+                 ['particles.d11_E11Ap4.3Aa1.6Vd0.32',2,[0],[1]],\
+                 ['particles.d11_E12Ap1.86Aa1.0Vd0.32_256_256x256',2,[0],[1]],\
+                 ['particles.d11_E12Ap1.86Aa1.0Vd0.32_512_256x256',2,[0],[1]],\
+                 ['particles.d11_He++A10_256_iden0eps0',2,[0],[1]],\
+                 ['particles.d11_He++v2_256_256ppc_iden3v0m0.5pwr6eps0',2,[0],[1]],\
+                 ['particles.d11_He++v2_256_iden0eps1e-4t600',2,[0],[1]],\
+                 ['particles.d11_He++vd1.5_256_iden0eps1e-4',2,[0],[1]],\
+                 ['particles.d11_pv1.5_128_64_iden0eps1e-4_dx0.75_long',2,[0],[1]],\
+                 ['particles.d11_pv2a_128x3_iden0eps1e-4_dx0.75',3,[0,1],[2]],\
+                 ['particles.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000',4,[0,1],[2,3]]]
+
+# running throught the models
+for simfile_spec in simfiles_spec:
+    # reading specifications for the filename
+    simfile = simfiles_folder + simfile_spec[0]
+    simfile_sh = simfile_spec[0]
+    kspi = simfile_spec[1]
+    kspi_pr = simfile_spec[2]
+    kspi_he = simfile_spec[3]
+    # header information and understanding simulations
+    print(" ")
+    print("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv")
+    print("-> SIMULATION: "+simfile)
+    print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+    print("-------------- HEADER AND FILE INFORMATION -----------------")
+    nsim, header = kr.show_fileinfo(simfile,kspi=kspi,nsim_out=True)
+    print("-------------- READING VDFS -----------------")
+    # generation of VDF and timing arrays
+    vdfp_array = np.zeros([nsim,320,320],dtype=float)
+    vdfhe_array = np.zeros([nsim,320,320],dtype=float)
+    timfrm_array = np.zeros([nsim],dtype=float)
+    timep_array = np.zeros([nsim],dtype=float)
+    # reading the arrays of interest
+    for iframe in range (0, nsim, 1):
+        print("Reading frame " + str(iframe))
+        timfrm, timep, xp, yp, vxp, vyp, vzp = kr.return_selectedframe(simfile,iframe+1,kspi=kspi)
+        hist_pr, vx_edges, vy_edges = kr.generate_histogram(vxp, vyp, resl=0.025, xlim=[-4.0,4.0], ylim=[-4.0,4.0], kspi_indexes = kspi_pr)
+        hist_he, vx_edges, vy_edges = kr.generate_histogram(vxp, vyp, resl=0.025, xlim=[-4.0,4.0], ylim=[-4.0,4.0], kspi_indexes = kspi_he)
+        vdfp_array[iframe,:,:] = np.copy(hist_pr)
+        vdfhe_array[iframe,:,:] = np.copy(hist_he)
+        timfrm_array[iframe] = timfrm[0]
+        timep_array[iframe] = timep[0]
+    # saving the files
+    np.save(savefiles_folder + simfile_sh + '.vdfp_array.npy', vdfp_array)
+    np.save(savefiles_folder + simfile_sh + '.vdfhe_array.npy', vdfhe_array)
+    np.save(savefiles_folder + simfile_sh + '.timfrm_array.npy', timfrm_array)
+    np.save(savefiles_folder + simfile_sh + '.timep_array.npy', timep_array)
+    print("-------------- READING MOMENTS -----------------")
+    # reading moments for all timeframes
+    anisotropies_p, moments_p, anisotropies_he, moments_he, timing = kr.calculate_anisotropies_moments_selectedframes(\
+                                                                 simfile, framestart = 0, frameend = nsim, kspi=kspi, \
+                                                                 kspi_indexes_protons = kspi_pr, kspi_indexes_he = kspi_he)
+    # saving moments
+    np.save(savefiles_folder + simfile_sh + '.anisotropies_p.npy', anisotropies_p)
+    np.save(savefiles_folder + simfile_sh + '.moments_p.npy', moments_p)
+    np.save(savefiles_folder + simfile_sh + '.anisotropies_he.npy', anisotropies_he)
+    np.save(savefiles_folder + simfile_sh + '.moments_he.npy', moments_he)
+    np.save(savefiles_folder + simfile_sh + '.timing.npy', timing)
