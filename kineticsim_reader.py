@@ -401,3 +401,138 @@ def calculate_anisotropies_moments_selectedframes(filename, framestart = 0, fram
     return anisotropies_p, moments_p, anisotropies_he, moments_he, timing
     
     
+def read_fieldsfile(filename, kspi=4, dirb=1):
+    """
+    The routine to read the fields file and output the major
+    arrays (magnetic and electric fields, temperatures, etc).
+    Input:
+    filename - the relative path to the file containing the result of hybrid
+    kinetic simulations (fields file)
+    kspi - number of species; default number is 4
+    dirb - direction of the external magnetic field (default is 1, which is Bx)
+    Output:
+    dx - spatial resolution along the x-axis
+    dy - spatial resolution along the y-axis
+    tim - timing array (second element is the time in gyroperiods)
+    bx - magnetic field (x-component)
+    by - magnetic field (y-component)
+    bz - magnetic field (z-component)
+    ex - electric field (x-component)
+    ey - electric field (y-component)
+    ez - electric field (z-component)
+    rvxh - ...
+    rvyh - ...
+    rvzh - ...
+    rdnh - ...
+    tpal - parallel temperature
+    tper - perpendicular temperature
+    me_perp - perpendicular magnetic energy (not unit-normalized)
+    me_tot - total magnetic energy (not unit-normalized)
+    """
+    with open(filename, 'rb') as file:
+        ihparm = 19
+        ihdr = 19 + 8*kspi
+        initdata = 1
+        ifrec = 0
+        # reading the header
+        header = np.empty([ihdr], dtype=np.float32)
+        header = np.fromfile(file, dtype=np.float32, count=len(header))
+        dt = header[0]
+        dx = header[1]
+        dy = header[2]
+        itmax = int(header[3])
+        lfld = int(header[4])
+        betaen = header[5]
+        nis = int(header[6])
+        nx = int(header[7])
+        ny = int(header[8])
+        npt = int(header[9])
+        ifields = int(header[10])
+        iparticles = int(header[11])
+        ienergy = int(header[12])
+        ifilter = int(header[13])
+        bx0 = header[14]
+        by0 = header[15]
+        bz0 = header[16]
+        icont = int(header[17])
+        xlres = header[18]
+        # defining and populating arrays
+        dns = np.zeros([nis], dtype=np.float32)
+        vds = np.zeros([nis], dtype=np.float32)
+        betain = np.zeros([nis], dtype=np.float32)
+        anis = np.zeros([nis], dtype=np.float32)
+        qi = np.zeros([nis], dtype=np.float32)
+        ai = np.zeros([nis], dtype=np.float32)
+        npts = np.zeros([nis], dtype=np.int32)
+        gs = np.zeros([nis], dtype=np.float32)
+        for _is in range (0, nis, 1):
+            ihs = ihparm+8*_is
+            qi[_is] = header[ihs]
+            ai[_is] = header[ihs+1]
+            betain[_is] = header[ihs+2]
+            vds[_is] = header[ihs+3]
+            dns[_is] = header[ihs+4]
+            anis[_is] = header[ihs+5]
+            gs[_is] = header[ihs+6]
+            npts[_is] = header[ihs+7].astype(np.int16)
+        nxh=nx//2
+        nyh=ny//2
+        nxp2=nx+2
+        nfrecs=itmax//ifields+1
+        # decoding the structure into the separate arrays
+        tim = np.empty([nfrecs,2], dtype=np.float32)
+        bx = np.empty([nfrecs,nx,ny], dtype=np.float32)
+        by = np.empty([nfrecs,nx,ny], dtype=np.float32)
+        bz = np.empty([nfrecs,nx,ny], dtype=np.float32)
+        ex = np.empty([nfrecs,nx,ny], dtype=np.float32)
+        ey = np.empty([nfrecs,nx,ny], dtype=np.float32)
+        ez = np.empty([nfrecs,nx,ny], dtype=np.float32)
+        rvxh = np.empty([nfrecs,nx,ny,2], dtype=np.float32)
+        rvyh = np.empty([nfrecs,nx,ny,2], dtype=np.float32)
+        rvzh = np.empty([nfrecs,nx,ny,2], dtype=np.float32)
+        rdnh = np.empty([nfrecs,nx,ny,2], dtype=np.float32)
+        tpal = np.empty([nfrecs,nis], dtype=np.float32)
+        tper = np.empty([nfrecs,nis], dtype=np.float32)
+        for ifrec in range (0, nfrecs, 1):
+            str_tim = np.empty([2], dtype=np.float32)
+            str_bx = np.empty([nx,ny], dtype=np.float32)
+            str_by = np.empty([nx,ny], dtype=np.float32)
+            str_bz = np.empty([nx,ny], dtype=np.float32)
+            str_ex = np.empty([nx,ny], dtype=np.float32)
+            str_ey = np.empty([nx,ny], dtype=np.float32)
+            str_ez = np.empty([nx,ny], dtype=np.float32)
+            str_rvxh = np.empty([nx,ny,2], dtype=np.float32)
+            str_rvyh = np.empty([nx,ny,2], dtype=np.float32)
+            str_rvzh = np.empty([nx,ny,2], dtype=np.float32)
+            str_rdnh = np.empty([nx,ny,2], dtype=np.float32)
+            str_tpal = np.empty([nis], dtype=np.float32)
+            str_tper = np.empty([nis], dtype=np.float32)
+            str_tim = np.fromfile(file, dtype=np.float32, count=len(str_tim))
+            str_bx = np.fromfile(file, dtype=np.float32, count=nx*ny)
+            str_by = np.fromfile(file, dtype=np.float32, count=nx*ny)
+            str_bz = np.fromfile(file, dtype=np.float32, count=nx*ny)
+            str_ex = np.fromfile(file, dtype=np.float32, count=nx*ny)
+            str_ey = np.fromfile(file, dtype=np.float32, count=nx*ny)
+            str_ez = np.fromfile(file, dtype=np.float32, count=nx*ny)
+            str_rvxh = np.fromfile(file, dtype=np.float32, count=nx*ny*2)
+            str_rvyh = np.fromfile(file, dtype=np.float32, count=nx*ny*2)
+            str_rvzh = np.fromfile(file, dtype=np.float32, count=nx*ny*2)
+            str_rdnh = np.fromfile(file, dtype=np.float32, count=nx*ny*2)
+            str_tpal = np.fromfile(file, dtype=np.float32, count=len(str_tpal))
+            str_tper = np.fromfile(file, dtype=np.float32, count=len(str_tper))
+            tim[ifrec,:] = str_tim
+            bx[ifrec,:,:] = str_bx.reshape(nx,ny)
+            by[ifrec,:,:] = str_by.reshape(nx,ny)
+            bz[ifrec,:,:] = str_bz.reshape(nx,ny)
+            ex[ifrec,:,:] = str_ex.reshape(nx,ny)
+            ey[ifrec,:,:] = str_ey.reshape(nx,ny)
+            ez[ifrec,:,:] = str_ez.reshape(nx,ny)
+            rvxh[ifrec,:,:,:] = str_rvxh.reshape(nx,ny,2)
+            rvyh[ifrec,:,:,:] = str_rvyh.reshape(nx,ny,2)
+            rvzh[ifrec,:,:,:] = str_rvzh.reshape(nx,ny,2)
+            rdnh[ifrec,:,:,:] = str_rdnh.reshape(nx,ny,2)
+            tpal[ifrec,:] = str_tpal
+            tper[ifrec,:] = str_tper
+        me_perp = np.sum(np.sum(by*by + bz*bz, axis=1), axis=1)
+        me_tot = np.sum(bx*bx + by*by + bz*bz)
+        return dx, dy, tim, bx, by, bz, ex, ey, ez, rvxh, rvyh, rvzh, rdnh, tpal, tper, me_perp, me_tot
