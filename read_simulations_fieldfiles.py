@@ -18,10 +18,15 @@ simfiles_spec = [['fields.d10_A0.5Hepp_beta0.5eps1e-4_256',2,[0],[1]],\
                  ['fields.d10_E11Ap3.3Aa2.0Vd0.42',2,[0],[1]],\
                  ['fields.d10_E11Ap4.3Aa1.6',2,[0],[1]],\
                  ['fields.d10_E11Ap4.3Aa1.6Vd0.32',2,[0],[1]],\
+                 ['fields.d10_E12Ap1.86Aa1.0Vd0.32_256_256x256',2,[0],[1]],\
+                 ['fields.d10_E12Ap1.86Aa1.0Vd0.32_512_256x256',2,[0],[1]],\
+                 ['fields.d10_He++A10_256_iden0eps0',2,[0],[1]],\
                  ['fields.d10_He++v2_256_iden0eps1e-4t600',2,[0],[1]],\
+                 ['fields.d10_He++vd1.5_256_iden0eps1e-4',2,[0],[1]],\
                  ['fields.d10_pv1.5_128_64_iden0eps1e-4_dx0.75_long',2,[0],[1]],\
-                 ['fields.d10_pv2a_128x3_iden0eps1e-4_dx0.75',3,[0,1],[2]]]
-
+                 ['fields.d10_pv2a_128x3_iden0eps1e-4_dx0.75',3,[0,1],[2]],\
+                 ['fields.d10_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000',4,[0,1],[2,3]],\
+                 ['fields.d10_pv2av2.3_128x3_iden0eps1e-4_dx0.75',4,[0,1],[2,3]]]
 
 # running throught the models
 for simfile_spec in simfiles_spec:
