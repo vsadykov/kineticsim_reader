@@ -487,13 +487,13 @@ def read_fieldsfile(filename, kspi=4, dirb=1):
         ex = np.empty([nfrecs,nx,ny], dtype=np.float32)
         ey = np.empty([nfrecs,nx,ny], dtype=np.float32)
         ez = np.empty([nfrecs,nx,ny], dtype=np.float32)
-        rvxh = np.empty([nfrecs,nx,ny,2], dtype=np.float32)
-        rvyh = np.empty([nfrecs,nx,ny,2], dtype=np.float32)
-        rvzh = np.empty([nfrecs,nx,ny,2], dtype=np.float32)
-        rdnh = np.empty([nfrecs,nx,ny,2], dtype=np.float32)
+        rvxh = np.empty([nfrecs,nx,ny,kspi], dtype=np.float32)
+        rvyh = np.empty([nfrecs,nx,ny,kspi], dtype=np.float32)
+        rvzh = np.empty([nfrecs,nx,ny,kspi], dtype=np.float32)
+        rdnh = np.empty([nfrecs,nx,ny,kspi], dtype=np.float32)
         tpal = np.empty([nfrecs,nis], dtype=np.float32)
         tper = np.empty([nfrecs,nis], dtype=np.float32)
-        for ifrec in range (0, nfrecs, 1):
+        while (ifrec < nfrecs):
             str_tim = np.empty([2], dtype=np.float32)
             str_bx = np.empty([nx,ny], dtype=np.float32)
             str_by = np.empty([nx,ny], dtype=np.float32)
@@ -501,23 +501,24 @@ def read_fieldsfile(filename, kspi=4, dirb=1):
             str_ex = np.empty([nx,ny], dtype=np.float32)
             str_ey = np.empty([nx,ny], dtype=np.float32)
             str_ez = np.empty([nx,ny], dtype=np.float32)
-            str_rvxh = np.empty([nx,ny,2], dtype=np.float32)
-            str_rvyh = np.empty([nx,ny,2], dtype=np.float32)
-            str_rvzh = np.empty([nx,ny,2], dtype=np.float32)
-            str_rdnh = np.empty([nx,ny,2], dtype=np.float32)
+            str_rvxh = np.empty([nx,ny,kspi], dtype=np.float32)
+            str_rvyh = np.empty([nx,ny,kspi], dtype=np.float32)
+            str_rvzh = np.empty([nx,ny,kspi], dtype=np.float32)
+            str_rdnh = np.empty([nx,ny,kspi], dtype=np.float32)
             str_tpal = np.empty([nis], dtype=np.float32)
             str_tper = np.empty([nis], dtype=np.float32)
             str_tim = np.fromfile(file, dtype=np.float32, count=len(str_tim))
+            if (len(str_tim) == 0): break
             str_bx = np.fromfile(file, dtype=np.float32, count=nx*ny)
             str_by = np.fromfile(file, dtype=np.float32, count=nx*ny)
             str_bz = np.fromfile(file, dtype=np.float32, count=nx*ny)
             str_ex = np.fromfile(file, dtype=np.float32, count=nx*ny)
             str_ey = np.fromfile(file, dtype=np.float32, count=nx*ny)
             str_ez = np.fromfile(file, dtype=np.float32, count=nx*ny)
-            str_rvxh = np.fromfile(file, dtype=np.float32, count=nx*ny*2)
-            str_rvyh = np.fromfile(file, dtype=np.float32, count=nx*ny*2)
-            str_rvzh = np.fromfile(file, dtype=np.float32, count=nx*ny*2)
-            str_rdnh = np.fromfile(file, dtype=np.float32, count=nx*ny*2)
+            str_rvxh = np.fromfile(file, dtype=np.float32, count=nx*ny*kspi)
+            str_rvyh = np.fromfile(file, dtype=np.float32, count=nx*ny*kspi)
+            str_rvzh = np.fromfile(file, dtype=np.float32, count=nx*ny*kspi)
+            str_rdnh = np.fromfile(file, dtype=np.float32, count=nx*ny*kspi)
             str_tpal = np.fromfile(file, dtype=np.float32, count=len(str_tpal))
             str_tper = np.fromfile(file, dtype=np.float32, count=len(str_tper))
             tim[ifrec,:] = str_tim
@@ -527,12 +528,27 @@ def read_fieldsfile(filename, kspi=4, dirb=1):
             ex[ifrec,:,:] = str_ex.reshape(nx,ny)
             ey[ifrec,:,:] = str_ey.reshape(nx,ny)
             ez[ifrec,:,:] = str_ez.reshape(nx,ny)
-            rvxh[ifrec,:,:,:] = str_rvxh.reshape(nx,ny,2)
-            rvyh[ifrec,:,:,:] = str_rvyh.reshape(nx,ny,2)
-            rvzh[ifrec,:,:,:] = str_rvzh.reshape(nx,ny,2)
-            rdnh[ifrec,:,:,:] = str_rdnh.reshape(nx,ny,2)
+            rvxh[ifrec,:,:,:] = str_rvxh.reshape(nx,ny,kspi)
+            rvyh[ifrec,:,:,:] = str_rvyh.reshape(nx,ny,kspi)
+            rvzh[ifrec,:,:,:] = str_rvzh.reshape(nx,ny,kspi)
+            rdnh[ifrec,:,:,:] = str_rdnh.reshape(nx,ny,kspi)
             tpal[ifrec,:] = str_tpal
             tper[ifrec,:] = str_tper
+            ifrec += 1
+        # cutting the corresponding arrays to the length of interest (in case if starting not from the beginning)
+        tim = tim[:ifrec,:]
+        bx = bx[:ifrec,:,:]
+        by = by[:ifrec,:,:]
+        bz = bz[:ifrec,:,:]
+        ex = ex[:ifrec,:,:]
+        ey = ey[:ifrec,:,:]
+        ez = ez[:ifrec,:,:]
+        rvhx = rvxh[:ifrec,:,:,:]
+        rvyh = rvyh[:ifrec,:,:,:]
+        rvzh = rvzh[:ifrec,:,:,:]
+        rdnh = rdnh[:ifrec,:,:,:]
+        tpal = tpal[:ifrec,:]
+        tper = tper[:ifrec,:]
         me_perp = np.sum(np.sum(by*by + bz*bz, axis=1), axis=1)
-        me_tot = np.sum(bx*bx + by*by + bz*bz)
+        me_tot = np.sum(np.sum(bx*bx + by*by + bz*bz, axis=1), axis=1)
         return dx, dy, tim, bx, by, bz, ex, ey, ez, rvxh, rvyh, rvzh, rdnh, tpal, tper, me_perp, me_tot
