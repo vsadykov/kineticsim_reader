@@ -18,7 +18,7 @@ import pickle
 from scipy.stats import moment
 
 
-def show_fileinfo(filename, kspi=4, nsim_out = False):
+def show_fileinfo(filename, kspi=4, nsim_out = False, limframe = 0):
     """
     The routine presents the header information and informs about the number
     of snapshots available for the analysis. The routine also allows one to
@@ -27,6 +27,8 @@ def show_fileinfo(filename, kspi=4, nsim_out = False):
     filename - the relative path to the file containing the result of hybrid
     kinetic simulations
     kspi - number of species; default number is 4
+    nsim_out - whether to output the number of simulation frames as a part of the output
+    limframe - the last frame to read (set to 0 to read all frames)
     Output:
     header - the header array of the simulations
     """
@@ -86,6 +88,7 @@ def show_fileinfo(filename, kspi=4, nsim_out = False):
             print('Frame record in file:', framecur, ', Frame number:', timfrm[0], ', Frame timing:', timep[0])
             framecur += 1
             if (timfrm[0] + header[11] >= header[3]): break
+            if ((framecur > limframe) and (limframe != 0)): break
     print('Total number of frames:', framecur-1)
     # returning the header information
     if (nsim_out == True):
@@ -401,7 +404,7 @@ def calculate_anisotropies_moments_selectedframes(filename, framestart = 0, fram
     return anisotropies_p, moments_p, anisotropies_he, moments_he, timing
     
     
-def read_fieldsfile(filename, kspi=4, dirb=1):
+def read_fieldsfile(filename, kspi=4, dirb=1, limframe=0):
     """
     The routine to read the fields file and output the major
     arrays (magnetic and electric fields, temperatures, etc).
@@ -410,6 +413,7 @@ def read_fieldsfile(filename, kspi=4, dirb=1):
     kinetic simulations (fields file)
     kspi - number of species; default number is 4
     dirb - direction of the external magnetic field (default is 1, which is Bx)
+    limframe - a maximum frame to read (default is 0)
     Output:
     dx - spatial resolution along the x-axis
     dy - spatial resolution along the y-axis

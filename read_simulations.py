@@ -34,13 +34,15 @@ simfiles_spec = [['particles.d11_A0.5Hepp_beta0.5eps1e-4_256',2,[0],[1]],\
                  ['particles.d11_He++vd1.5_256_iden0eps1e-4',2,[0],[1]],\
                  ['particles.d11_pv1.5_128_64_iden0eps1e-4_dx0.75_long',2,[0],[1]],\
                  ['particles.d11_pv2a_128x3_iden0eps1e-4_dx0.75',3,[0,1],[2]],\
-                 ['particles.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000',4,[0,1],[2,3]]]
+                 ['particles.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000',4,[0,1],[2,3]],\
+                 ['particles.d11_pv2av2.3_128x3_iden0eps1e-4_dx0.75',4,[0,1],[2,3]]]
 
 # running throught the models
 for simfile_spec in simfiles_spec:
     # reading specifications for the filename
     simfile = simfiles_folder + simfile_spec[0]
     simfile_sh = simfile_spec[0]
+    if (simfile_sh != 'particles.d11_pv2av2.3_128x3_iden0eps1e-4_dx0.75'): continue
     kspi = simfile_spec[1]
     kspi_pr = simfile_spec[2]
     kspi_he = simfile_spec[3]
@@ -50,7 +52,10 @@ for simfile_spec in simfiles_spec:
     print("-> SIMULATION: "+simfile)
     print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
     print("-------------- HEADER AND FILE INFORMATION -----------------")
-    nsim, header = kr.show_fileinfo(simfile,kspi=kspi,nsim_out=True)
+    if (simfile_sh != 'particles.d11_pv2av2.3_128x3_iden0eps1e-4_dx0.75'):
+        nsim, header = kr.show_fileinfo(simfile,kspi=kspi,nsim_out=True)
+    else:
+        nsim, header = kr.show_fileinfo(simfile,kspi=kspi,nsim_out=True,limframe=64)
     print("-------------- READING VDFS -----------------")
     # generation of VDF and timing arrays
     vdfp_array = np.zeros([nsim,320,320],dtype=float)
