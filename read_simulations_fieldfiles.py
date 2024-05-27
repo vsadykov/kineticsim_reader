@@ -13,32 +13,37 @@ simfiles_folder = '../'
 # location to save the results of readings
 savefiles_folder = './processing_results/'
 # simulation filename, number of species, proton specie indexes, he specie indexes
-simfiles_spec = [['fields.d10_A0.5Hepp_beta0.5eps1e-4_256',2,[0],[1]],\
-                 ['fields.d10_A0.75Hepp_beta1_256',2,[0],[1]],\
-                 ['fields.d10_E11Ap3.3Aa2.0Vd0.42',2,[0],[1]],\
-                 ['fields.d10_E11Ap4.3Aa1.6',2,[0],[1]],\
-                 ['fields.d10_E11Ap4.3Aa1.6Vd0.32',2,[0],[1]],\
-                 ['fields.d10_E12Ap1.86Aa1.0Vd0.32_256_256x256',2,[0],[1]],\
-                 ['fields.d10_E12Ap1.86Aa1.0Vd0.32_512_256x256',2,[0],[1]],\
-                 ['fields.d10_He++A10_256_iden0eps0',2,[0],[1]],\
-                 ['fields.d10_He++v2_256_iden0eps1e-4t600',2,[0],[1]],\
-                 ['fields.d10_He++vd1.5_256_iden0eps1e-4',2,[0],[1]],\
-                 ['fields.d10_pv1.5_128_64_iden0eps1e-4_dx0.75_long',2,[0],[1]],\
-                 ['fields.d10_pv2a_128x3_iden0eps1e-4_dx0.75',3,[0,1],[2]],\
-                 ['fields.d10_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000',4,[0,1],[2,3]],\
-                 ['fields.d10_pv2av2.3_128x3_iden0eps1e-4_dx0.75',4,[0,1],[2,3]],\
-                 ['fields.d10_vap1.2Ap1Aa0.75_rdna_0.05',2,[0],[1]],\
-                 ['fields.d10_vap1.2Ap3.35Aa2.05rdna_0.007',2,[0],[1]],\
-                 ['fields.d10_vap1.5Ap1.5Aa1rdna_0.007',2,[0],[1]],\
-                ]
+simfiles_spec = [\
+['fields.d10_A0.5Hepp_beta0.5eps1e-4_256',2,[0],[1]],\
+['fields.d10_A0.75Hepp_beta1_256',2,[0],[1]],\
+['fields.d10_E11Ap3.3Aa2.0Vd0.42',2,[0],[1]],\
+['fields.d10_E11Ap4.3Aa1.6',2,[0],[1]],\
+['fields.d10_E11Ap4.3Aa1.6Vd0.32',2,[0],[1]],\
+['fields.d10_E12Ap1.86Aa1.0Vd0.32_256_256x256',2,[0],[1]],\
+['fields.d10_E12Ap1.86Aa1.0Vd0.32_512_256x256',2,[0],[1]],\
+['fields.d10_He++A10_256_iden0eps0',2,[0],[1]],\
+['fields.d10_He++v2_256_iden0eps1e-4t600',2,[0],[1]],\
+['fields.d10_He++vd1.5_256_iden0eps1e-4',2,[0],[1]],\
+['fields.d10_pv1.5_128_64_iden0eps1e-4_dx0.75_long',2,[0,1],[]],\
+['fields.d10_pv1Ap2Apb2betac0.214betab0.858_128_128x2_dx0.75_t3000',2,[0,1],[]],\
+['fields.d10_pv2a_128x3_iden0eps1e-4_dx0.75',3,[0,1],[2]],\
+['fields.d10_pv2Ap1Ab1betac0.429betab0.858_128_128x2_dx0.75_t3000',2,[0,1],[]],\
+['fields.d10_pv2Ap1Ab2betac0.429betab0.858_128_128x2_dx0.75_t3000',2,[0,1],[]],\
+['fields.d10_pv2Ap2Apb2betac0.214betab0.858_128_128x2_dx0.75_t3000',2,[0,1],[]],\
+['fields.d10_pv2av2.3_128x3_iden0eps1e-4_dx0.75',4,[0,1],[2,3]],\
+['fields.d10_pv2av2Ap1Aa1beta0.429_128_128x2_dx0.75_t3000',4,[0,1],[2,3]],\
+['fields.d10_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000',4,[0,1],[2,3]],\
+['fields.d10_vap1.2Ap1Aa0.75_rdna_0.05',2,[0],[1]],\
+['fields.d10_vap1.2Ap3.35Aa2.05rdna_0.007',2,[0],[1]],\
+['fields.d10_vap1.5Ap1.5Aa1rdna_0.007',2,[0],[1]]\
+]
+
 
 # running throught the models
 for simfile_spec in simfiles_spec:
     # reading specifications for the filename
     simfile = simfiles_folder + simfile_spec[0]
     simfile_sh = simfile_spec[0]
-    # below is the string to process the specific files only
-    if ( (simfile_sh != 'fields.d10_vap1.2Ap1Aa0.75_rdna_0.05') and (simfile_sh != 'fields.d10_vap1.2Ap3.35Aa2.05rdna_0.007') and (simfile_sh != 'fields.d10_vap1.5Ap1.5Aa1rdna_0.007') ): continue
     kspi = simfile_spec[1]
     kspi_pr = simfile_spec[2]
     kspi_he = simfile_spec[3]
