@@ -1,0 +1,4599 @@
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_A0.5Hepp_beta0.5eps1e-4_256
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.05
+HEADER[1]:          dx: 1.5
+HEADER[2]:          dy: 1.5
+HEADER[3]:       itmax: 20003.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.5
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 8388608.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 250.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 500.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.05
+Frame record in file: 2 , Frame number: 251.0 , Frame timing: 12.55
+Frame record in file: 3 , Frame number: 501.0 , Frame timing: 25.050001
+Frame record in file: 4 , Frame number: 751.0 , Frame timing: 37.55
+Frame record in file: 5 , Frame number: 1001.0 , Frame timing: 50.05
+Frame record in file: 6 , Frame number: 1251.0 , Frame timing: 62.55
+Frame record in file: 7 , Frame number: 1501.0 , Frame timing: 75.05
+Frame record in file: 8 , Frame number: 1751.0 , Frame timing: 87.55
+Frame record in file: 9 , Frame number: 2001.0 , Frame timing: 100.05
+Frame record in file: 10 , Frame number: 2251.0 , Frame timing: 112.55
+Frame record in file: 11 , Frame number: 2501.0 , Frame timing: 125.05
+Frame record in file: 12 , Frame number: 2751.0 , Frame timing: 137.55
+Frame record in file: 13 , Frame number: 3001.0 , Frame timing: 150.05
+Frame record in file: 14 , Frame number: 3251.0 , Frame timing: 162.55
+Frame record in file: 15 , Frame number: 3501.0 , Frame timing: 175.05
+Frame record in file: 16 , Frame number: 3751.0 , Frame timing: 187.55
+Frame record in file: 17 , Frame number: 4001.0 , Frame timing: 200.05
+Frame record in file: 18 , Frame number: 4251.0 , Frame timing: 212.55
+Frame record in file: 19 , Frame number: 4501.0 , Frame timing: 225.05
+Frame record in file: 20 , Frame number: 4751.0 , Frame timing: 237.55
+Frame record in file: 21 , Frame number: 5001.0 , Frame timing: 250.05
+Frame record in file: 22 , Frame number: 5251.0 , Frame timing: 262.55002
+Frame record in file: 23 , Frame number: 5501.0 , Frame timing: 275.05002
+Frame record in file: 24 , Frame number: 5751.0 , Frame timing: 287.55002
+Frame record in file: 25 , Frame number: 6001.0 , Frame timing: 300.05002
+Frame record in file: 26 , Frame number: 6251.0 , Frame timing: 312.55002
+Frame record in file: 27 , Frame number: 6501.0 , Frame timing: 325.05002
+Frame record in file: 28 , Frame number: 6751.0 , Frame timing: 337.55002
+Frame record in file: 29 , Frame number: 7001.0 , Frame timing: 350.05002
+Frame record in file: 30 , Frame number: 7251.0 , Frame timing: 362.55002
+Frame record in file: 31 , Frame number: 7501.0 , Frame timing: 375.05002
+Frame record in file: 32 , Frame number: 7751.0 , Frame timing: 387.55002
+Frame record in file: 33 , Frame number: 8001.0 , Frame timing: 400.05002
+Frame record in file: 34 , Frame number: 8251.0 , Frame timing: 412.55002
+Frame record in file: 35 , Frame number: 8501.0 , Frame timing: 425.05002
+Frame record in file: 36 , Frame number: 8751.0 , Frame timing: 437.55002
+Frame record in file: 37 , Frame number: 9001.0 , Frame timing: 450.05002
+Frame record in file: 38 , Frame number: 9251.0 , Frame timing: 462.55002
+Frame record in file: 39 , Frame number: 9501.0 , Frame timing: 475.05002
+Frame record in file: 40 , Frame number: 9751.0 , Frame timing: 487.55002
+Frame record in file: 41 , Frame number: 10001.0 , Frame timing: 500.05002
+Frame record in file: 42 , Frame number: 10251.0 , Frame timing: 512.55
+Frame record in file: 43 , Frame number: 10501.0 , Frame timing: 525.05
+Frame record in file: 44 , Frame number: 10751.0 , Frame timing: 537.55
+Frame record in file: 45 , Frame number: 11001.0 , Frame timing: 550.05
+Frame record in file: 46 , Frame number: 11251.0 , Frame timing: 562.55
+Frame record in file: 47 , Frame number: 11501.0 , Frame timing: 575.05
+Frame record in file: 48 , Frame number: 11751.0 , Frame timing: 587.55
+Frame record in file: 49 , Frame number: 12001.0 , Frame timing: 600.05
+Frame record in file: 50 , Frame number: 12251.0 , Frame timing: 612.55
+Frame record in file: 51 , Frame number: 12501.0 , Frame timing: 625.05
+Frame record in file: 52 , Frame number: 12751.0 , Frame timing: 637.55
+Frame record in file: 53 , Frame number: 13001.0 , Frame timing: 650.05
+Frame record in file: 54 , Frame number: 13251.0 , Frame timing: 662.55
+Frame record in file: 55 , Frame number: 13501.0 , Frame timing: 675.05
+Frame record in file: 56 , Frame number: 13751.0 , Frame timing: 687.55
+Frame record in file: 57 , Frame number: 14001.0 , Frame timing: 700.05
+Frame record in file: 58 , Frame number: 14251.0 , Frame timing: 712.55
+Frame record in file: 59 , Frame number: 14501.0 , Frame timing: 725.05
+Frame record in file: 60 , Frame number: 14751.0 , Frame timing: 737.55
+Frame record in file: 61 , Frame number: 15001.0 , Frame timing: 750.05
+Frame record in file: 62 , Frame number: 15251.0 , Frame timing: 762.55
+Frame record in file: 63 , Frame number: 15501.0 , Frame timing: 775.05
+Frame record in file: 64 , Frame number: 15751.0 , Frame timing: 787.55
+Frame record in file: 65 , Frame number: 16001.0 , Frame timing: 800.05
+Frame record in file: 66 , Frame number: 16251.0 , Frame timing: 812.55
+Frame record in file: 67 , Frame number: 16501.0 , Frame timing: 825.05
+Frame record in file: 68 , Frame number: 16751.0 , Frame timing: 837.55
+Frame record in file: 69 , Frame number: 17001.0 , Frame timing: 850.05
+Frame record in file: 70 , Frame number: 17251.0 , Frame timing: 862.55
+Frame record in file: 71 , Frame number: 17501.0 , Frame timing: 875.05
+Frame record in file: 72 , Frame number: 17751.0 , Frame timing: 887.55
+Frame record in file: 73 , Frame number: 18001.0 , Frame timing: 900.05
+Frame record in file: 74 , Frame number: 18251.0 , Frame timing: 912.55
+Frame record in file: 75 , Frame number: 18501.0 , Frame timing: 925.05
+Frame record in file: 76 , Frame number: 18751.0 , Frame timing: 937.55
+Frame record in file: 77 , Frame number: 19001.0 , Frame timing: 950.05
+Frame record in file: 78 , Frame number: 19251.0 , Frame timing: 962.55
+Frame record in file: 79 , Frame number: 19501.0 , Frame timing: 975.05
+Frame record in file: 80 , Frame number: 19751.0 , Frame timing: 987.55
+Frame record in file: 81 , Frame number: 20001.0 , Frame timing: 1000.05
+Total number of frames: 81
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+Reading frame 61
+Reading frame 62
+Reading frame 63
+Reading frame 64
+Reading frame 65
+Reading frame 66
+Reading frame 67
+Reading frame 68
+Reading frame 69
+Reading frame 70
+Reading frame 71
+Reading frame 72
+Reading frame 73
+Reading frame 74
+Reading frame 75
+Reading frame 76
+Reading frame 77
+Reading frame 78
+Reading frame 79
+Reading frame 80
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+MOMENTS READ FOR FRAME: 62
+MOMENTS READ FOR FRAME: 63
+MOMENTS READ FOR FRAME: 64
+MOMENTS READ FOR FRAME: 65
+MOMENTS READ FOR FRAME: 66
+MOMENTS READ FOR FRAME: 67
+MOMENTS READ FOR FRAME: 68
+MOMENTS READ FOR FRAME: 69
+MOMENTS READ FOR FRAME: 70
+MOMENTS READ FOR FRAME: 71
+MOMENTS READ FOR FRAME: 72
+MOMENTS READ FOR FRAME: 73
+MOMENTS READ FOR FRAME: 74
+MOMENTS READ FOR FRAME: 75
+MOMENTS READ FOR FRAME: 76
+MOMENTS READ FOR FRAME: 77
+MOMENTS READ FOR FRAME: 78
+MOMENTS READ FOR FRAME: 79
+MOMENTS READ FOR FRAME: 80
+MOMENTS READ FOR FRAME: 81
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_A0.75Hepp_beta1_256
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.05
+HEADER[1]:          dx: 1.5
+HEADER[2]:          dy: 1.5
+HEADER[3]:       itmax: 12202.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 1.0
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 8388608.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 250.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 500.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.05
+Frame record in file: 2 , Frame number: 251.0 , Frame timing: 12.55
+Frame record in file: 3 , Frame number: 501.0 , Frame timing: 25.050001
+Frame record in file: 4 , Frame number: 751.0 , Frame timing: 37.55
+Frame record in file: 5 , Frame number: 1001.0 , Frame timing: 50.05
+Frame record in file: 6 , Frame number: 1251.0 , Frame timing: 62.55
+Frame record in file: 7 , Frame number: 1501.0 , Frame timing: 75.05
+Frame record in file: 8 , Frame number: 1751.0 , Frame timing: 87.55
+Frame record in file: 9 , Frame number: 2001.0 , Frame timing: 100.05
+Frame record in file: 10 , Frame number: 2251.0 , Frame timing: 112.55
+Frame record in file: 11 , Frame number: 2501.0 , Frame timing: 125.05
+Frame record in file: 12 , Frame number: 2751.0 , Frame timing: 137.55
+Frame record in file: 13 , Frame number: 3001.0 , Frame timing: 150.05
+Frame record in file: 14 , Frame number: 3251.0 , Frame timing: 162.55
+Frame record in file: 15 , Frame number: 3501.0 , Frame timing: 175.05
+Frame record in file: 16 , Frame number: 3751.0 , Frame timing: 187.55
+Frame record in file: 17 , Frame number: 4001.0 , Frame timing: 200.05
+Frame record in file: 18 , Frame number: 4251.0 , Frame timing: 212.55
+Frame record in file: 19 , Frame number: 4501.0 , Frame timing: 225.05
+Frame record in file: 20 , Frame number: 4751.0 , Frame timing: 237.55
+Frame record in file: 21 , Frame number: 5001.0 , Frame timing: 250.05
+Frame record in file: 22 , Frame number: 5251.0 , Frame timing: 262.55002
+Frame record in file: 23 , Frame number: 5501.0 , Frame timing: 275.05002
+Frame record in file: 24 , Frame number: 5751.0 , Frame timing: 287.55002
+Frame record in file: 25 , Frame number: 6001.0 , Frame timing: 300.05002
+Frame record in file: 26 , Frame number: 6251.0 , Frame timing: 312.55002
+Frame record in file: 27 , Frame number: 6501.0 , Frame timing: 325.05002
+Frame record in file: 28 , Frame number: 6751.0 , Frame timing: 337.55002
+Frame record in file: 29 , Frame number: 7001.0 , Frame timing: 350.05002
+Frame record in file: 30 , Frame number: 7251.0 , Frame timing: 362.55002
+Frame record in file: 31 , Frame number: 7501.0 , Frame timing: 375.05002
+Frame record in file: 32 , Frame number: 7751.0 , Frame timing: 387.55002
+Frame record in file: 33 , Frame number: 8001.0 , Frame timing: 400.05002
+Frame record in file: 34 , Frame number: 8251.0 , Frame timing: 412.55002
+Frame record in file: 35 , Frame number: 8501.0 , Frame timing: 425.05002
+Frame record in file: 36 , Frame number: 8751.0 , Frame timing: 437.55002
+Frame record in file: 37 , Frame number: 9001.0 , Frame timing: 450.05002
+Frame record in file: 38 , Frame number: 9251.0 , Frame timing: 462.55002
+Frame record in file: 39 , Frame number: 9501.0 , Frame timing: 475.05002
+Frame record in file: 40 , Frame number: 9751.0 , Frame timing: 487.55002
+Frame record in file: 41 , Frame number: 10001.0 , Frame timing: 500.05002
+Frame record in file: 42 , Frame number: 10251.0 , Frame timing: 512.55
+Frame record in file: 43 , Frame number: 10501.0 , Frame timing: 525.05
+Frame record in file: 44 , Frame number: 10751.0 , Frame timing: 537.55
+Frame record in file: 45 , Frame number: 11001.0 , Frame timing: 550.05
+Frame record in file: 46 , Frame number: 11251.0 , Frame timing: 562.55
+Frame record in file: 47 , Frame number: 11501.0 , Frame timing: 575.05
+Frame record in file: 48 , Frame number: 11751.0 , Frame timing: 587.55
+Frame record in file: 49 , Frame number: 12001.0 , Frame timing: 600.05
+Total number of frames: 49
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_E11Ap3.3Aa2.0Vd0.42
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 24004.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.08
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 16777216.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 500.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 501.0 , Frame timing: 12.525001
+Frame record in file: 3 , Frame number: 1001.0 , Frame timing: 25.025
+Frame record in file: 4 , Frame number: 1501.0 , Frame timing: 37.525
+Frame record in file: 5 , Frame number: 2001.0 , Frame timing: 50.025
+Frame record in file: 6 , Frame number: 2501.0 , Frame timing: 62.525
+Frame record in file: 7 , Frame number: 3001.0 , Frame timing: 75.025
+Frame record in file: 8 , Frame number: 3501.0 , Frame timing: 87.525
+Frame record in file: 9 , Frame number: 4001.0 , Frame timing: 100.025
+Frame record in file: 10 , Frame number: 4501.0 , Frame timing: 112.525
+Frame record in file: 11 , Frame number: 5001.0 , Frame timing: 125.025
+Frame record in file: 12 , Frame number: 5501.0 , Frame timing: 137.52501
+Frame record in file: 13 , Frame number: 6001.0 , Frame timing: 150.02501
+Frame record in file: 14 , Frame number: 6501.0 , Frame timing: 162.52501
+Frame record in file: 15 , Frame number: 7001.0 , Frame timing: 175.02501
+Frame record in file: 16 , Frame number: 7501.0 , Frame timing: 187.52501
+Frame record in file: 17 , Frame number: 8001.0 , Frame timing: 200.02501
+Frame record in file: 18 , Frame number: 8501.0 , Frame timing: 212.52501
+Frame record in file: 19 , Frame number: 9001.0 , Frame timing: 225.02501
+Frame record in file: 20 , Frame number: 9501.0 , Frame timing: 237.52501
+Frame record in file: 21 , Frame number: 10001.0 , Frame timing: 250.02501
+Frame record in file: 22 , Frame number: 10501.0 , Frame timing: 262.525
+Frame record in file: 23 , Frame number: 11001.0 , Frame timing: 275.025
+Frame record in file: 24 , Frame number: 11501.0 , Frame timing: 287.525
+Frame record in file: 25 , Frame number: 12001.0 , Frame timing: 300.025
+Frame record in file: 26 , Frame number: 12501.0 , Frame timing: 312.525
+Frame record in file: 27 , Frame number: 13001.0 , Frame timing: 325.025
+Frame record in file: 28 , Frame number: 13501.0 , Frame timing: 337.525
+Frame record in file: 29 , Frame number: 14001.0 , Frame timing: 350.025
+Frame record in file: 30 , Frame number: 14501.0 , Frame timing: 362.525
+Frame record in file: 31 , Frame number: 15001.0 , Frame timing: 375.025
+Frame record in file: 32 , Frame number: 15501.0 , Frame timing: 387.525
+Frame record in file: 33 , Frame number: 16001.0 , Frame timing: 400.025
+Frame record in file: 34 , Frame number: 16501.0 , Frame timing: 412.525
+Frame record in file: 35 , Frame number: 17001.0 , Frame timing: 425.025
+Frame record in file: 36 , Frame number: 17501.0 , Frame timing: 437.525
+Frame record in file: 37 , Frame number: 18001.0 , Frame timing: 450.025
+Frame record in file: 38 , Frame number: 18501.0 , Frame timing: 462.525
+Frame record in file: 39 , Frame number: 19001.0 , Frame timing: 475.025
+Frame record in file: 40 , Frame number: 19501.0 , Frame timing: 487.525
+Frame record in file: 41 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 42 , Frame number: 20501.0 , Frame timing: 512.525
+Frame record in file: 43 , Frame number: 21001.0 , Frame timing: 525.025
+Frame record in file: 44 , Frame number: 21501.0 , Frame timing: 537.525
+Frame record in file: 45 , Frame number: 22001.0 , Frame timing: 550.025
+Frame record in file: 46 , Frame number: 22501.0 , Frame timing: 562.525
+Frame record in file: 47 , Frame number: 23001.0 , Frame timing: 575.025
+Frame record in file: 48 , Frame number: 23501.0 , Frame timing: 587.525
+Frame record in file: 49 , Frame number: 24001.0 , Frame timing: 600.025
+Total number of frames: 49
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_E11Ap4.3Aa1.6
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 24004.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.08
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 16777216.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 500.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 501.0 , Frame timing: 12.525001
+Frame record in file: 3 , Frame number: 1001.0 , Frame timing: 25.025
+Frame record in file: 4 , Frame number: 1501.0 , Frame timing: 37.525
+Frame record in file: 5 , Frame number: 2001.0 , Frame timing: 50.025
+Frame record in file: 6 , Frame number: 2501.0 , Frame timing: 62.525
+Frame record in file: 7 , Frame number: 3001.0 , Frame timing: 75.025
+Frame record in file: 8 , Frame number: 3501.0 , Frame timing: 87.525
+Frame record in file: 9 , Frame number: 4001.0 , Frame timing: 100.025
+Frame record in file: 10 , Frame number: 4501.0 , Frame timing: 112.525
+Frame record in file: 11 , Frame number: 5001.0 , Frame timing: 125.025
+Frame record in file: 12 , Frame number: 5501.0 , Frame timing: 137.52501
+Frame record in file: 13 , Frame number: 6001.0 , Frame timing: 150.02501
+Frame record in file: 14 , Frame number: 6501.0 , Frame timing: 162.52501
+Frame record in file: 15 , Frame number: 7001.0 , Frame timing: 175.02501
+Frame record in file: 16 , Frame number: 7501.0 , Frame timing: 187.52501
+Frame record in file: 17 , Frame number: 8001.0 , Frame timing: 200.02501
+Frame record in file: 18 , Frame number: 8501.0 , Frame timing: 212.52501
+Frame record in file: 19 , Frame number: 9001.0 , Frame timing: 225.02501
+Frame record in file: 20 , Frame number: 9501.0 , Frame timing: 237.52501
+Frame record in file: 21 , Frame number: 10001.0 , Frame timing: 250.02501
+Frame record in file: 22 , Frame number: 10501.0 , Frame timing: 262.525
+Frame record in file: 23 , Frame number: 11001.0 , Frame timing: 275.025
+Frame record in file: 24 , Frame number: 11501.0 , Frame timing: 287.525
+Frame record in file: 25 , Frame number: 12001.0 , Frame timing: 300.025
+Frame record in file: 26 , Frame number: 12501.0 , Frame timing: 312.525
+Frame record in file: 27 , Frame number: 13001.0 , Frame timing: 325.025
+Frame record in file: 28 , Frame number: 13501.0 , Frame timing: 337.525
+Frame record in file: 29 , Frame number: 14001.0 , Frame timing: 350.025
+Frame record in file: 30 , Frame number: 14501.0 , Frame timing: 362.525
+Frame record in file: 31 , Frame number: 15001.0 , Frame timing: 375.025
+Frame record in file: 32 , Frame number: 15501.0 , Frame timing: 387.525
+Frame record in file: 33 , Frame number: 16001.0 , Frame timing: 400.025
+Frame record in file: 34 , Frame number: 16501.0 , Frame timing: 412.525
+Frame record in file: 35 , Frame number: 17001.0 , Frame timing: 425.025
+Frame record in file: 36 , Frame number: 17501.0 , Frame timing: 437.525
+Frame record in file: 37 , Frame number: 18001.0 , Frame timing: 450.025
+Frame record in file: 38 , Frame number: 18501.0 , Frame timing: 462.525
+Frame record in file: 39 , Frame number: 19001.0 , Frame timing: 475.025
+Frame record in file: 40 , Frame number: 19501.0 , Frame timing: 487.525
+Frame record in file: 41 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 42 , Frame number: 20501.0 , Frame timing: 512.525
+Frame record in file: 43 , Frame number: 21001.0 , Frame timing: 525.025
+Frame record in file: 44 , Frame number: 21501.0 , Frame timing: 537.525
+Frame record in file: 45 , Frame number: 22001.0 , Frame timing: 550.025
+Frame record in file: 46 , Frame number: 22501.0 , Frame timing: 562.525
+Frame record in file: 47 , Frame number: 23001.0 , Frame timing: 575.025
+Frame record in file: 48 , Frame number: 23501.0 , Frame timing: 587.525
+Frame record in file: 49 , Frame number: 24001.0 , Frame timing: 600.025
+Total number of frames: 49
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_E11Ap4.3Aa1.6Vd0.32
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 24004.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.08
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 16777216.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 500.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 501.0 , Frame timing: 12.525001
+Frame record in file: 3 , Frame number: 1001.0 , Frame timing: 25.025
+Frame record in file: 4 , Frame number: 1501.0 , Frame timing: 37.525
+Frame record in file: 5 , Frame number: 2001.0 , Frame timing: 50.025
+Frame record in file: 6 , Frame number: 2501.0 , Frame timing: 62.525
+Frame record in file: 7 , Frame number: 3001.0 , Frame timing: 75.025
+Frame record in file: 8 , Frame number: 3501.0 , Frame timing: 87.525
+Frame record in file: 9 , Frame number: 4001.0 , Frame timing: 100.025
+Frame record in file: 10 , Frame number: 4501.0 , Frame timing: 112.525
+Frame record in file: 11 , Frame number: 5001.0 , Frame timing: 125.025
+Frame record in file: 12 , Frame number: 5501.0 , Frame timing: 137.52501
+Frame record in file: 13 , Frame number: 6001.0 , Frame timing: 150.02501
+Frame record in file: 14 , Frame number: 6501.0 , Frame timing: 162.52501
+Frame record in file: 15 , Frame number: 7001.0 , Frame timing: 175.02501
+Frame record in file: 16 , Frame number: 7501.0 , Frame timing: 187.52501
+Frame record in file: 17 , Frame number: 8001.0 , Frame timing: 200.02501
+Frame record in file: 18 , Frame number: 8501.0 , Frame timing: 212.52501
+Frame record in file: 19 , Frame number: 9001.0 , Frame timing: 225.02501
+Frame record in file: 20 , Frame number: 9501.0 , Frame timing: 237.52501
+Frame record in file: 21 , Frame number: 10001.0 , Frame timing: 250.02501
+Frame record in file: 22 , Frame number: 10501.0 , Frame timing: 262.525
+Frame record in file: 23 , Frame number: 11001.0 , Frame timing: 275.025
+Frame record in file: 24 , Frame number: 11501.0 , Frame timing: 287.525
+Frame record in file: 25 , Frame number: 12001.0 , Frame timing: 300.025
+Frame record in file: 26 , Frame number: 12501.0 , Frame timing: 312.525
+Frame record in file: 27 , Frame number: 13001.0 , Frame timing: 325.025
+Frame record in file: 28 , Frame number: 13501.0 , Frame timing: 337.525
+Frame record in file: 29 , Frame number: 14001.0 , Frame timing: 350.025
+Frame record in file: 30 , Frame number: 14501.0 , Frame timing: 362.525
+Frame record in file: 31 , Frame number: 15001.0 , Frame timing: 375.025
+Frame record in file: 32 , Frame number: 15501.0 , Frame timing: 387.525
+Frame record in file: 33 , Frame number: 16001.0 , Frame timing: 400.025
+Frame record in file: 34 , Frame number: 16501.0 , Frame timing: 412.525
+Frame record in file: 35 , Frame number: 17001.0 , Frame timing: 425.025
+Frame record in file: 36 , Frame number: 17501.0 , Frame timing: 437.525
+Frame record in file: 37 , Frame number: 18001.0 , Frame timing: 450.025
+Frame record in file: 38 , Frame number: 18501.0 , Frame timing: 462.525
+Frame record in file: 39 , Frame number: 19001.0 , Frame timing: 475.025
+Frame record in file: 40 , Frame number: 19501.0 , Frame timing: 487.525
+Frame record in file: 41 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 42 , Frame number: 20501.0 , Frame timing: 512.525
+Frame record in file: 43 , Frame number: 21001.0 , Frame timing: 525.025
+Frame record in file: 44 , Frame number: 21501.0 , Frame timing: 537.525
+Frame record in file: 45 , Frame number: 22001.0 , Frame timing: 550.025
+Frame record in file: 46 , Frame number: 22501.0 , Frame timing: 562.525
+Frame record in file: 47 , Frame number: 23001.0 , Frame timing: 575.025
+Frame record in file: 48 , Frame number: 23501.0 , Frame timing: 587.525
+Frame record in file: 49 , Frame number: 24001.0 , Frame timing: 600.025
+Total number of frames: 49
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_E12Ap1.86Aa1.0Vd0.32_256_256x256
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 200005.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.1
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 16777216.0
+HEADER[10]:    ifields: 100.0
+HEADER[11]: iparticles: 4000.0
+HEADER[12]:    ienergy: 100.0
+HEADER[13]:    ifilter: 1000.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 4001.0 , Frame timing: 100.025
+Frame record in file: 3 , Frame number: 8001.0 , Frame timing: 200.02501
+Frame record in file: 4 , Frame number: 12001.0 , Frame timing: 300.025
+Frame record in file: 5 , Frame number: 16001.0 , Frame timing: 400.025
+Frame record in file: 6 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 7 , Frame number: 24001.0 , Frame timing: 600.025
+Frame record in file: 8 , Frame number: 28001.0 , Frame timing: 700.025
+Frame record in file: 9 , Frame number: 32001.0 , Frame timing: 800.025
+Frame record in file: 10 , Frame number: 36001.0 , Frame timing: 900.025
+Frame record in file: 11 , Frame number: 40001.0 , Frame timing: 1000.025
+Frame record in file: 12 , Frame number: 44001.0 , Frame timing: 1100.025
+Frame record in file: 13 , Frame number: 48001.0 , Frame timing: 1200.025
+Frame record in file: 14 , Frame number: 52001.0 , Frame timing: 1300.025
+Frame record in file: 15 , Frame number: 56001.0 , Frame timing: 1400.025
+Frame record in file: 16 , Frame number: 60001.0 , Frame timing: 1500.025
+Frame record in file: 17 , Frame number: 64001.0 , Frame timing: 1600.025
+Frame record in file: 18 , Frame number: 68001.0 , Frame timing: 1700.025
+Frame record in file: 19 , Frame number: 72001.0 , Frame timing: 1800.025
+Frame record in file: 20 , Frame number: 76001.0 , Frame timing: 1900.025
+Frame record in file: 21 , Frame number: 80001.0 , Frame timing: 2000.025
+Frame record in file: 22 , Frame number: 84001.0 , Frame timing: 2100.0251
+Frame record in file: 23 , Frame number: 88001.0 , Frame timing: 2200.0251
+Frame record in file: 24 , Frame number: 92001.0 , Frame timing: 2300.0251
+Frame record in file: 25 , Frame number: 96001.0 , Frame timing: 2400.0251
+Frame record in file: 26 , Frame number: 100001.0 , Frame timing: 2500.0251
+Frame record in file: 27 , Frame number: 104001.0 , Frame timing: 2600.0251
+Frame record in file: 28 , Frame number: 108001.0 , Frame timing: 2700.0251
+Frame record in file: 29 , Frame number: 112001.0 , Frame timing: 2800.0251
+Frame record in file: 30 , Frame number: 116001.0 , Frame timing: 2900.0251
+Frame record in file: 31 , Frame number: 120001.0 , Frame timing: 3000.0251
+Frame record in file: 32 , Frame number: 124001.0 , Frame timing: 3100.0251
+Frame record in file: 33 , Frame number: 128001.0 , Frame timing: 3200.0251
+Frame record in file: 34 , Frame number: 132001.0 , Frame timing: 3300.0251
+Frame record in file: 35 , Frame number: 136001.0 , Frame timing: 3400.0251
+Frame record in file: 36 , Frame number: 140001.0 , Frame timing: 3500.0251
+Frame record in file: 37 , Frame number: 144001.0 , Frame timing: 3600.0251
+Frame record in file: 38 , Frame number: 148001.0 , Frame timing: 3700.0251
+Frame record in file: 39 , Frame number: 152001.0 , Frame timing: 3800.0251
+Frame record in file: 40 , Frame number: 156001.0 , Frame timing: 3900.0251
+Frame record in file: 41 , Frame number: 160001.0 , Frame timing: 4000.0251
+Frame record in file: 42 , Frame number: 164001.0 , Frame timing: 4100.025
+Frame record in file: 43 , Frame number: 168001.0 , Frame timing: 4200.025
+Frame record in file: 44 , Frame number: 172001.0 , Frame timing: 4300.025
+Frame record in file: 45 , Frame number: 176001.0 , Frame timing: 4400.025
+Frame record in file: 46 , Frame number: 180001.0 , Frame timing: 4500.025
+Frame record in file: 47 , Frame number: 184001.0 , Frame timing: 4600.025
+Frame record in file: 48 , Frame number: 188001.0 , Frame timing: 4700.025
+Frame record in file: 49 , Frame number: 192001.0 , Frame timing: 4800.025
+Frame record in file: 50 , Frame number: 196001.0 , Frame timing: 4900.025
+Frame record in file: 51 , Frame number: 200001.0 , Frame timing: 5000.025
+Total number of frames: 51
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_E12Ap1.86Aa1.0Vd0.32_512_256x256
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 200005.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.1
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 33554432.0
+HEADER[10]:    ifields: 100.0
+HEADER[11]: iparticles: 4000.0
+HEADER[12]:    ienergy: 100.0
+HEADER[13]:    ifilter: 1000.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 4001.0 , Frame timing: 100.025
+Frame record in file: 3 , Frame number: 8001.0 , Frame timing: 200.02501
+Frame record in file: 4 , Frame number: 12001.0 , Frame timing: 300.025
+Frame record in file: 5 , Frame number: 16001.0 , Frame timing: 400.025
+Frame record in file: 6 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 7 , Frame number: 24001.0 , Frame timing: 600.025
+Frame record in file: 8 , Frame number: 28001.0 , Frame timing: 700.025
+Frame record in file: 9 , Frame number: 32001.0 , Frame timing: 800.025
+Frame record in file: 10 , Frame number: 36001.0 , Frame timing: 900.025
+Frame record in file: 11 , Frame number: 40001.0 , Frame timing: 1000.025
+Frame record in file: 12 , Frame number: 44001.0 , Frame timing: 1100.025
+Frame record in file: 13 , Frame number: 48001.0 , Frame timing: 1200.025
+Frame record in file: 14 , Frame number: 52001.0 , Frame timing: 1300.025
+Frame record in file: 15 , Frame number: 56001.0 , Frame timing: 1400.025
+Frame record in file: 16 , Frame number: 60001.0 , Frame timing: 1500.025
+Frame record in file: 17 , Frame number: 64001.0 , Frame timing: 1600.025
+Frame record in file: 18 , Frame number: 68001.0 , Frame timing: 1700.025
+Frame record in file: 19 , Frame number: 72001.0 , Frame timing: 1800.025
+Frame record in file: 20 , Frame number: 76001.0 , Frame timing: 1900.025
+Frame record in file: 21 , Frame number: 80001.0 , Frame timing: 2000.025
+Frame record in file: 22 , Frame number: 84001.0 , Frame timing: 2100.0251
+Frame record in file: 23 , Frame number: 88001.0 , Frame timing: 2200.0251
+Frame record in file: 24 , Frame number: 92001.0 , Frame timing: 2300.0251
+Frame record in file: 25 , Frame number: 96001.0 , Frame timing: 2400.0251
+Frame record in file: 26 , Frame number: 100001.0 , Frame timing: 2500.0251
+Frame record in file: 27 , Frame number: 104001.0 , Frame timing: 2600.0251
+Frame record in file: 28 , Frame number: 108001.0 , Frame timing: 2700.0251
+Frame record in file: 29 , Frame number: 112001.0 , Frame timing: 2800.0251
+Frame record in file: 30 , Frame number: 116001.0 , Frame timing: 2900.0251
+Frame record in file: 31 , Frame number: 120001.0 , Frame timing: 3000.0251
+Frame record in file: 32 , Frame number: 124001.0 , Frame timing: 3100.0251
+Frame record in file: 33 , Frame number: 128001.0 , Frame timing: 3200.0251
+Frame record in file: 34 , Frame number: 132001.0 , Frame timing: 3300.0251
+Frame record in file: 35 , Frame number: 136001.0 , Frame timing: 3400.0251
+Frame record in file: 36 , Frame number: 140001.0 , Frame timing: 3500.0251
+Frame record in file: 37 , Frame number: 144001.0 , Frame timing: 3600.0251
+Frame record in file: 38 , Frame number: 148001.0 , Frame timing: 3700.0251
+Frame record in file: 39 , Frame number: 152001.0 , Frame timing: 3800.0251
+Frame record in file: 40 , Frame number: 156001.0 , Frame timing: 3900.0251
+Frame record in file: 41 , Frame number: 160001.0 , Frame timing: 4000.0251
+Frame record in file: 42 , Frame number: 164001.0 , Frame timing: 4100.025
+Frame record in file: 43 , Frame number: 168001.0 , Frame timing: 4200.025
+Frame record in file: 44 , Frame number: 172001.0 , Frame timing: 4300.025
+Frame record in file: 45 , Frame number: 176001.0 , Frame timing: 4400.025
+Frame record in file: 46 , Frame number: 180001.0 , Frame timing: 4500.025
+Frame record in file: 47 , Frame number: 184001.0 , Frame timing: 4600.025
+Frame record in file: 48 , Frame number: 188001.0 , Frame timing: 4700.025
+Frame record in file: 49 , Frame number: 192001.0 , Frame timing: 4800.025
+Frame record in file: 50 , Frame number: 196001.0 , Frame timing: 4900.025
+Frame record in file: 51 , Frame number: 200001.0 , Frame timing: 5000.025
+Total number of frames: 51
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_He++A10_256_iden0eps0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 24004.0
+HEADER[4]:        ifld: 1.0
+HEADER[5]:      betaen: 0.02067
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 16646144.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 500.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 501.0 , Frame timing: 12.525001
+Frame record in file: 3 , Frame number: 1001.0 , Frame timing: 25.025
+Frame record in file: 4 , Frame number: 1501.0 , Frame timing: 37.525
+Frame record in file: 5 , Frame number: 2001.0 , Frame timing: 50.025
+Frame record in file: 6 , Frame number: 2501.0 , Frame timing: 62.525
+Frame record in file: 7 , Frame number: 3001.0 , Frame timing: 75.025
+Frame record in file: 8 , Frame number: 3501.0 , Frame timing: 87.525
+Frame record in file: 9 , Frame number: 4001.0 , Frame timing: 100.025
+Frame record in file: 10 , Frame number: 4501.0 , Frame timing: 112.525
+Frame record in file: 11 , Frame number: 5001.0 , Frame timing: 125.025
+Frame record in file: 12 , Frame number: 5501.0 , Frame timing: 137.52501
+Frame record in file: 13 , Frame number: 6001.0 , Frame timing: 150.02501
+Frame record in file: 14 , Frame number: 6501.0 , Frame timing: 162.52501
+Frame record in file: 15 , Frame number: 7001.0 , Frame timing: 175.02501
+Frame record in file: 16 , Frame number: 7501.0 , Frame timing: 187.52501
+Frame record in file: 17 , Frame number: 8001.0 , Frame timing: 200.02501
+Frame record in file: 18 , Frame number: 8501.0 , Frame timing: 212.52501
+Frame record in file: 19 , Frame number: 9001.0 , Frame timing: 225.02501
+Frame record in file: 20 , Frame number: 9501.0 , Frame timing: 237.52501
+Frame record in file: 21 , Frame number: 10001.0 , Frame timing: 250.02501
+Frame record in file: 22 , Frame number: 10501.0 , Frame timing: 262.525
+Frame record in file: 23 , Frame number: 11001.0 , Frame timing: 275.025
+Frame record in file: 24 , Frame number: 11501.0 , Frame timing: 287.525
+Frame record in file: 25 , Frame number: 12001.0 , Frame timing: 300.025
+Frame record in file: 26 , Frame number: 12501.0 , Frame timing: 312.525
+Frame record in file: 27 , Frame number: 13001.0 , Frame timing: 325.025
+Frame record in file: 28 , Frame number: 13501.0 , Frame timing: 337.525
+Frame record in file: 29 , Frame number: 14001.0 , Frame timing: 350.025
+Frame record in file: 30 , Frame number: 14501.0 , Frame timing: 362.525
+Frame record in file: 31 , Frame number: 15001.0 , Frame timing: 375.025
+Frame record in file: 32 , Frame number: 15501.0 , Frame timing: 387.525
+Frame record in file: 33 , Frame number: 16001.0 , Frame timing: 400.025
+Frame record in file: 34 , Frame number: 16501.0 , Frame timing: 412.525
+Frame record in file: 35 , Frame number: 17001.0 , Frame timing: 425.025
+Frame record in file: 36 , Frame number: 17501.0 , Frame timing: 437.525
+Frame record in file: 37 , Frame number: 18001.0 , Frame timing: 450.025
+Frame record in file: 38 , Frame number: 18501.0 , Frame timing: 462.525
+Frame record in file: 39 , Frame number: 19001.0 , Frame timing: 475.025
+Frame record in file: 40 , Frame number: 19501.0 , Frame timing: 487.525
+Frame record in file: 41 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 42 , Frame number: 20501.0 , Frame timing: 512.525
+Frame record in file: 43 , Frame number: 21001.0 , Frame timing: 525.025
+Frame record in file: 44 , Frame number: 21501.0 , Frame timing: 537.525
+Frame record in file: 45 , Frame number: 22001.0 , Frame timing: 550.025
+Frame record in file: 46 , Frame number: 22501.0 , Frame timing: 562.525
+Frame record in file: 47 , Frame number: 23001.0 , Frame timing: 575.025
+Frame record in file: 48 , Frame number: 23501.0 , Frame timing: 587.525
+Frame record in file: 49 , Frame number: 24001.0 , Frame timing: 600.025
+Total number of frames: 49
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_He++v2_256_iden0eps1e-4t600
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.01
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 60011.0
+HEADER[4]:        ifld: 1.0
+HEADER[5]:      betaen: 0.02067
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 16646144.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 650.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.01
+Frame record in file: 2 , Frame number: 651.0 , Frame timing: 6.5099998
+Frame record in file: 3 , Frame number: 1301.0 , Frame timing: 13.009999
+Frame record in file: 4 , Frame number: 1951.0 , Frame timing: 19.51
+Frame record in file: 5 , Frame number: 2601.0 , Frame timing: 26.01
+Frame record in file: 6 , Frame number: 3251.0 , Frame timing: 32.51
+Frame record in file: 7 , Frame number: 3901.0 , Frame timing: 39.01
+Frame record in file: 8 , Frame number: 4551.0 , Frame timing: 45.51
+Frame record in file: 9 , Frame number: 5201.0 , Frame timing: 52.01
+Frame record in file: 10 , Frame number: 5851.0 , Frame timing: 58.51
+Frame record in file: 11 , Frame number: 6501.0 , Frame timing: 65.01
+Frame record in file: 12 , Frame number: 7151.0 , Frame timing: 71.51
+Frame record in file: 13 , Frame number: 7801.0 , Frame timing: 78.009995
+Frame record in file: 14 , Frame number: 8451.0 , Frame timing: 84.509995
+Frame record in file: 15 , Frame number: 9101.0 , Frame timing: 91.009995
+Frame record in file: 16 , Frame number: 9751.0 , Frame timing: 97.509995
+Frame record in file: 17 , Frame number: 10401.0 , Frame timing: 104.009995
+Frame record in file: 18 , Frame number: 11051.0 , Frame timing: 110.509995
+Frame record in file: 19 , Frame number: 11701.0 , Frame timing: 117.009995
+Frame record in file: 20 , Frame number: 12351.0 , Frame timing: 123.509995
+Frame record in file: 21 , Frame number: 13001.0 , Frame timing: 130.01
+Frame record in file: 22 , Frame number: 13651.0 , Frame timing: 136.51
+Frame record in file: 23 , Frame number: 14301.0 , Frame timing: 143.01
+Frame record in file: 24 , Frame number: 14951.0 , Frame timing: 149.51
+Frame record in file: 25 , Frame number: 15601.0 , Frame timing: 156.01
+Frame record in file: 26 , Frame number: 16251.0 , Frame timing: 162.51
+Frame record in file: 27 , Frame number: 16901.0 , Frame timing: 169.01
+Frame record in file: 28 , Frame number: 17551.0 , Frame timing: 175.51
+Frame record in file: 29 , Frame number: 18201.0 , Frame timing: 182.01
+Frame record in file: 30 , Frame number: 18851.0 , Frame timing: 188.51
+Frame record in file: 31 , Frame number: 19501.0 , Frame timing: 195.01
+Frame record in file: 32 , Frame number: 20151.0 , Frame timing: 201.51
+Frame record in file: 33 , Frame number: 20801.0 , Frame timing: 208.01
+Frame record in file: 34 , Frame number: 21451.0 , Frame timing: 214.51
+Frame record in file: 35 , Frame number: 22101.0 , Frame timing: 221.01
+Frame record in file: 36 , Frame number: 22751.0 , Frame timing: 227.51
+Frame record in file: 37 , Frame number: 23401.0 , Frame timing: 234.01
+Frame record in file: 38 , Frame number: 24051.0 , Frame timing: 240.51
+Frame record in file: 39 , Frame number: 24701.0 , Frame timing: 247.01
+Frame record in file: 40 , Frame number: 25351.0 , Frame timing: 253.51
+Frame record in file: 41 , Frame number: 26001.0 , Frame timing: 260.00998
+Frame record in file: 42 , Frame number: 26651.0 , Frame timing: 266.50998
+Frame record in file: 43 , Frame number: 27301.0 , Frame timing: 273.00998
+Frame record in file: 44 , Frame number: 27951.0 , Frame timing: 279.50998
+Frame record in file: 45 , Frame number: 28601.0 , Frame timing: 286.00998
+Frame record in file: 46 , Frame number: 29251.0 , Frame timing: 292.50998
+Frame record in file: 47 , Frame number: 29901.0 , Frame timing: 299.00998
+Frame record in file: 48 , Frame number: 30551.0 , Frame timing: 305.50998
+Frame record in file: 49 , Frame number: 31201.0 , Frame timing: 312.00998
+Frame record in file: 50 , Frame number: 31851.0 , Frame timing: 318.50998
+Frame record in file: 51 , Frame number: 32501.0 , Frame timing: 325.00998
+Frame record in file: 52 , Frame number: 33151.0 , Frame timing: 331.50998
+Frame record in file: 53 , Frame number: 33801.0 , Frame timing: 338.00998
+Frame record in file: 54 , Frame number: 34451.0 , Frame timing: 344.50998
+Frame record in file: 55 , Frame number: 35101.0 , Frame timing: 351.00998
+Frame record in file: 56 , Frame number: 35751.0 , Frame timing: 357.50998
+Frame record in file: 57 , Frame number: 36401.0 , Frame timing: 364.00998
+Frame record in file: 58 , Frame number: 37051.0 , Frame timing: 370.50998
+Frame record in file: 59 , Frame number: 37701.0 , Frame timing: 377.00998
+Frame record in file: 60 , Frame number: 38351.0 , Frame timing: 383.50998
+Frame record in file: 61 , Frame number: 39001.0 , Frame timing: 390.00998
+Frame record in file: 62 , Frame number: 39651.0 , Frame timing: 396.50998
+Frame record in file: 63 , Frame number: 40301.0 , Frame timing: 403.00998
+Frame record in file: 64 , Frame number: 40951.0 , Frame timing: 409.50998
+Frame record in file: 65 , Frame number: 41601.0 , Frame timing: 416.00998
+Frame record in file: 66 , Frame number: 42251.0 , Frame timing: 422.50998
+Frame record in file: 67 , Frame number: 42901.0 , Frame timing: 429.00998
+Frame record in file: 68 , Frame number: 43551.0 , Frame timing: 435.50998
+Frame record in file: 69 , Frame number: 44201.0 , Frame timing: 442.00998
+Frame record in file: 70 , Frame number: 44851.0 , Frame timing: 448.50998
+Frame record in file: 71 , Frame number: 45501.0 , Frame timing: 455.00998
+Frame record in file: 72 , Frame number: 46151.0 , Frame timing: 461.50998
+Frame record in file: 73 , Frame number: 46801.0 , Frame timing: 468.00998
+Frame record in file: 74 , Frame number: 47451.0 , Frame timing: 474.50998
+Frame record in file: 75 , Frame number: 48101.0 , Frame timing: 481.00998
+Frame record in file: 76 , Frame number: 48751.0 , Frame timing: 487.50998
+Frame record in file: 77 , Frame number: 49401.0 , Frame timing: 494.00998
+Frame record in file: 78 , Frame number: 50051.0 , Frame timing: 500.50998
+Frame record in file: 79 , Frame number: 50701.0 , Frame timing: 507.00998
+Frame record in file: 80 , Frame number: 51351.0 , Frame timing: 513.51
+Frame record in file: 81 , Frame number: 52001.0 , Frame timing: 520.01
+Frame record in file: 82 , Frame number: 52651.0 , Frame timing: 526.51
+Frame record in file: 83 , Frame number: 53301.0 , Frame timing: 533.01
+Frame record in file: 84 , Frame number: 53951.0 , Frame timing: 539.51
+Frame record in file: 85 , Frame number: 54601.0 , Frame timing: 546.01
+Frame record in file: 86 , Frame number: 55251.0 , Frame timing: 552.51
+Frame record in file: 87 , Frame number: 55901.0 , Frame timing: 559.01
+Frame record in file: 88 , Frame number: 56551.0 , Frame timing: 565.51
+Frame record in file: 89 , Frame number: 57201.0 , Frame timing: 572.01
+Frame record in file: 90 , Frame number: 57851.0 , Frame timing: 578.51
+Frame record in file: 91 , Frame number: 58501.0 , Frame timing: 585.01
+Frame record in file: 92 , Frame number: 59151.0 , Frame timing: 591.51
+Frame record in file: 93 , Frame number: 59801.0 , Frame timing: 598.01
+Total number of frames: 93
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+Reading frame 61
+Reading frame 62
+Reading frame 63
+Reading frame 64
+Reading frame 65
+Reading frame 66
+Reading frame 67
+Reading frame 68
+Reading frame 69
+Reading frame 70
+Reading frame 71
+Reading frame 72
+Reading frame 73
+Reading frame 74
+Reading frame 75
+Reading frame 76
+Reading frame 77
+Reading frame 78
+Reading frame 79
+Reading frame 80
+Reading frame 81
+Reading frame 82
+Reading frame 83
+Reading frame 84
+Reading frame 85
+Reading frame 86
+Reading frame 87
+Reading frame 88
+Reading frame 89
+Reading frame 90
+Reading frame 91
+Reading frame 92
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+MOMENTS READ FOR FRAME: 62
+MOMENTS READ FOR FRAME: 63
+MOMENTS READ FOR FRAME: 64
+MOMENTS READ FOR FRAME: 65
+MOMENTS READ FOR FRAME: 66
+MOMENTS READ FOR FRAME: 67
+MOMENTS READ FOR FRAME: 68
+MOMENTS READ FOR FRAME: 69
+MOMENTS READ FOR FRAME: 70
+MOMENTS READ FOR FRAME: 71
+MOMENTS READ FOR FRAME: 72
+MOMENTS READ FOR FRAME: 73
+MOMENTS READ FOR FRAME: 74
+MOMENTS READ FOR FRAME: 75
+MOMENTS READ FOR FRAME: 76
+MOMENTS READ FOR FRAME: 77
+MOMENTS READ FOR FRAME: 78
+MOMENTS READ FOR FRAME: 79
+MOMENTS READ FOR FRAME: 80
+MOMENTS READ FOR FRAME: 81
+MOMENTS READ FOR FRAME: 82
+MOMENTS READ FOR FRAME: 83
+MOMENTS READ FOR FRAME: 84
+MOMENTS READ FOR FRAME: 85
+MOMENTS READ FOR FRAME: 86
+MOMENTS READ FOR FRAME: 87
+MOMENTS READ FOR FRAME: 88
+MOMENTS READ FOR FRAME: 89
+MOMENTS READ FOR FRAME: 90
+MOMENTS READ FOR FRAME: 91
+MOMENTS READ FOR FRAME: 92
+MOMENTS READ FOR FRAME: 93
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_He++vd1.5_256_iden0eps1e-4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 40005.0
+HEADER[4]:        ifld: 1.0
+HEADER[5]:      betaen: 0.02067
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 16646144.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 500.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 501.0 , Frame timing: 12.525001
+Frame record in file: 3 , Frame number: 1001.0 , Frame timing: 25.025
+Frame record in file: 4 , Frame number: 1501.0 , Frame timing: 37.525
+Frame record in file: 5 , Frame number: 2001.0 , Frame timing: 50.025
+Frame record in file: 6 , Frame number: 2501.0 , Frame timing: 62.525
+Frame record in file: 7 , Frame number: 3001.0 , Frame timing: 75.025
+Frame record in file: 8 , Frame number: 3501.0 , Frame timing: 87.525
+Frame record in file: 9 , Frame number: 4001.0 , Frame timing: 100.025
+Frame record in file: 10 , Frame number: 4501.0 , Frame timing: 112.525
+Frame record in file: 11 , Frame number: 5001.0 , Frame timing: 125.025
+Frame record in file: 12 , Frame number: 5501.0 , Frame timing: 137.52501
+Frame record in file: 13 , Frame number: 6001.0 , Frame timing: 150.02501
+Frame record in file: 14 , Frame number: 6501.0 , Frame timing: 162.52501
+Frame record in file: 15 , Frame number: 7001.0 , Frame timing: 175.02501
+Frame record in file: 16 , Frame number: 7501.0 , Frame timing: 187.52501
+Frame record in file: 17 , Frame number: 8001.0 , Frame timing: 200.02501
+Frame record in file: 18 , Frame number: 8501.0 , Frame timing: 212.52501
+Frame record in file: 19 , Frame number: 9001.0 , Frame timing: 225.02501
+Frame record in file: 20 , Frame number: 9501.0 , Frame timing: 237.52501
+Frame record in file: 21 , Frame number: 10001.0 , Frame timing: 250.02501
+Frame record in file: 22 , Frame number: 10501.0 , Frame timing: 262.525
+Frame record in file: 23 , Frame number: 11001.0 , Frame timing: 275.025
+Frame record in file: 24 , Frame number: 11501.0 , Frame timing: 287.525
+Frame record in file: 25 , Frame number: 12001.0 , Frame timing: 300.025
+Frame record in file: 26 , Frame number: 12501.0 , Frame timing: 312.525
+Frame record in file: 27 , Frame number: 13001.0 , Frame timing: 325.025
+Frame record in file: 28 , Frame number: 13501.0 , Frame timing: 337.525
+Frame record in file: 29 , Frame number: 14001.0 , Frame timing: 350.025
+Frame record in file: 30 , Frame number: 14501.0 , Frame timing: 362.525
+Frame record in file: 31 , Frame number: 15001.0 , Frame timing: 375.025
+Frame record in file: 32 , Frame number: 15501.0 , Frame timing: 387.525
+Frame record in file: 33 , Frame number: 16001.0 , Frame timing: 400.025
+Frame record in file: 34 , Frame number: 16501.0 , Frame timing: 412.525
+Frame record in file: 35 , Frame number: 17001.0 , Frame timing: 425.025
+Frame record in file: 36 , Frame number: 17501.0 , Frame timing: 437.525
+Frame record in file: 37 , Frame number: 18001.0 , Frame timing: 450.025
+Frame record in file: 38 , Frame number: 18501.0 , Frame timing: 462.525
+Frame record in file: 39 , Frame number: 19001.0 , Frame timing: 475.025
+Frame record in file: 40 , Frame number: 19501.0 , Frame timing: 487.525
+Frame record in file: 41 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 42 , Frame number: 20501.0 , Frame timing: 512.525
+Frame record in file: 43 , Frame number: 21001.0 , Frame timing: 525.025
+Frame record in file: 44 , Frame number: 21501.0 , Frame timing: 537.525
+Frame record in file: 45 , Frame number: 22001.0 , Frame timing: 550.025
+Frame record in file: 46 , Frame number: 22501.0 , Frame timing: 562.525
+Frame record in file: 47 , Frame number: 23001.0 , Frame timing: 575.025
+Frame record in file: 48 , Frame number: 23501.0 , Frame timing: 587.525
+Frame record in file: 49 , Frame number: 24001.0 , Frame timing: 600.025
+Frame record in file: 50 , Frame number: 24501.0 , Frame timing: 612.525
+Frame record in file: 51 , Frame number: 25001.0 , Frame timing: 625.025
+Frame record in file: 52 , Frame number: 25501.0 , Frame timing: 637.525
+Frame record in file: 53 , Frame number: 26001.0 , Frame timing: 650.025
+Frame record in file: 54 , Frame number: 26501.0 , Frame timing: 662.525
+Frame record in file: 55 , Frame number: 27001.0 , Frame timing: 675.025
+Frame record in file: 56 , Frame number: 27501.0 , Frame timing: 687.525
+Frame record in file: 57 , Frame number: 28001.0 , Frame timing: 700.025
+Frame record in file: 58 , Frame number: 28501.0 , Frame timing: 712.525
+Frame record in file: 59 , Frame number: 29001.0 , Frame timing: 725.025
+Frame record in file: 60 , Frame number: 29501.0 , Frame timing: 737.525
+Frame record in file: 61 , Frame number: 30001.0 , Frame timing: 750.025
+Frame record in file: 62 , Frame number: 30501.0 , Frame timing: 762.525
+Frame record in file: 63 , Frame number: 31001.0 , Frame timing: 775.025
+Frame record in file: 64 , Frame number: 31501.0 , Frame timing: 787.525
+Frame record in file: 65 , Frame number: 32001.0 , Frame timing: 800.025
+Frame record in file: 66 , Frame number: 32501.0 , Frame timing: 812.525
+Frame record in file: 67 , Frame number: 33001.0 , Frame timing: 825.025
+Frame record in file: 68 , Frame number: 33501.0 , Frame timing: 837.525
+Frame record in file: 69 , Frame number: 34001.0 , Frame timing: 850.025
+Frame record in file: 70 , Frame number: 34501.0 , Frame timing: 862.525
+Frame record in file: 71 , Frame number: 35001.0 , Frame timing: 875.025
+Frame record in file: 72 , Frame number: 35501.0 , Frame timing: 887.525
+Frame record in file: 73 , Frame number: 36001.0 , Frame timing: 900.025
+Frame record in file: 74 , Frame number: 36501.0 , Frame timing: 912.525
+Frame record in file: 75 , Frame number: 37001.0 , Frame timing: 925.025
+Frame record in file: 76 , Frame number: 37501.0 , Frame timing: 937.525
+Frame record in file: 77 , Frame number: 38001.0 , Frame timing: 950.025
+Frame record in file: 78 , Frame number: 38501.0 , Frame timing: 962.525
+Frame record in file: 79 , Frame number: 39001.0 , Frame timing: 975.025
+Frame record in file: 80 , Frame number: 39501.0 , Frame timing: 987.525
+Frame record in file: 81 , Frame number: 40001.0 , Frame timing: 1000.025
+Total number of frames: 81
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+Reading frame 61
+Reading frame 62
+Reading frame 63
+Reading frame 64
+Reading frame 65
+Reading frame 66
+Reading frame 67
+Reading frame 68
+Reading frame 69
+Reading frame 70
+Reading frame 71
+Reading frame 72
+Reading frame 73
+Reading frame 74
+Reading frame 75
+Reading frame 76
+Reading frame 77
+Reading frame 78
+Reading frame 79
+Reading frame 80
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+MOMENTS READ FOR FRAME: 62
+MOMENTS READ FOR FRAME: 63
+MOMENTS READ FOR FRAME: 64
+MOMENTS READ FOR FRAME: 65
+MOMENTS READ FOR FRAME: 66
+MOMENTS READ FOR FRAME: 67
+MOMENTS READ FOR FRAME: 68
+MOMENTS READ FOR FRAME: 69
+MOMENTS READ FOR FRAME: 70
+MOMENTS READ FOR FRAME: 71
+MOMENTS READ FOR FRAME: 72
+MOMENTS READ FOR FRAME: 73
+MOMENTS READ FOR FRAME: 74
+MOMENTS READ FOR FRAME: 75
+MOMENTS READ FOR FRAME: 76
+MOMENTS READ FOR FRAME: 77
+MOMENTS READ FOR FRAME: 78
+MOMENTS READ FOR FRAME: 79
+MOMENTS READ FOR FRAME: 80
+MOMENTS READ FOR FRAME: 81
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv1.5_128_64_iden0eps1e-4_dx0.75_long
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 150006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.0413
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 2097152.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 1000.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.02
+Frame record in file: 2 , Frame number: 1001.0 , Frame timing: 20.02
+Frame record in file: 3 , Frame number: 2001.0 , Frame timing: 40.02
+Frame record in file: 4 , Frame number: 3001.0 , Frame timing: 60.02
+Frame record in file: 5 , Frame number: 4001.0 , Frame timing: 80.02
+Frame record in file: 6 , Frame number: 5001.0 , Frame timing: 100.02
+Frame record in file: 7 , Frame number: 6001.0 , Frame timing: 120.02
+Frame record in file: 8 , Frame number: 7001.0 , Frame timing: 140.02
+Frame record in file: 9 , Frame number: 8001.0 , Frame timing: 160.01999
+Frame record in file: 10 , Frame number: 9001.0 , Frame timing: 180.01999
+Frame record in file: 11 , Frame number: 10001.0 , Frame timing: 200.01999
+Frame record in file: 12 , Frame number: 11001.0 , Frame timing: 220.01999
+Frame record in file: 13 , Frame number: 12001.0 , Frame timing: 240.01999
+Frame record in file: 14 , Frame number: 13001.0 , Frame timing: 260.02
+Frame record in file: 15 , Frame number: 14001.0 , Frame timing: 280.02
+Frame record in file: 16 , Frame number: 15001.0 , Frame timing: 300.02
+Frame record in file: 17 , Frame number: 16001.0 , Frame timing: 320.02
+Frame record in file: 18 , Frame number: 17001.0 , Frame timing: 340.02
+Frame record in file: 19 , Frame number: 18001.0 , Frame timing: 360.02
+Frame record in file: 20 , Frame number: 19001.0 , Frame timing: 380.02
+Frame record in file: 21 , Frame number: 20001.0 , Frame timing: 400.02
+Frame record in file: 22 , Frame number: 21001.0 , Frame timing: 420.02
+Frame record in file: 23 , Frame number: 22001.0 , Frame timing: 440.02
+Frame record in file: 24 , Frame number: 23001.0 , Frame timing: 460.02
+Frame record in file: 25 , Frame number: 24001.0 , Frame timing: 480.02
+Frame record in file: 26 , Frame number: 25001.0 , Frame timing: 500.02
+Frame record in file: 27 , Frame number: 26001.0 , Frame timing: 520.01996
+Frame record in file: 28 , Frame number: 27001.0 , Frame timing: 540.01996
+Frame record in file: 29 , Frame number: 28001.0 , Frame timing: 560.01996
+Frame record in file: 30 , Frame number: 29001.0 , Frame timing: 580.01996
+Frame record in file: 31 , Frame number: 30001.0 , Frame timing: 600.01996
+Frame record in file: 32 , Frame number: 31001.0 , Frame timing: 620.01996
+Frame record in file: 33 , Frame number: 32001.0 , Frame timing: 640.01996
+Frame record in file: 34 , Frame number: 33001.0 , Frame timing: 660.01996
+Frame record in file: 35 , Frame number: 34001.0 , Frame timing: 680.01996
+Frame record in file: 36 , Frame number: 35001.0 , Frame timing: 700.01996
+Frame record in file: 37 , Frame number: 36001.0 , Frame timing: 720.01996
+Frame record in file: 38 , Frame number: 37001.0 , Frame timing: 740.01996
+Frame record in file: 39 , Frame number: 38001.0 , Frame timing: 760.01996
+Frame record in file: 40 , Frame number: 39001.0 , Frame timing: 780.01996
+Frame record in file: 41 , Frame number: 40001.0 , Frame timing: 800.01996
+Frame record in file: 42 , Frame number: 41001.0 , Frame timing: 820.01996
+Frame record in file: 43 , Frame number: 42001.0 , Frame timing: 840.01996
+Frame record in file: 44 , Frame number: 43001.0 , Frame timing: 860.01996
+Frame record in file: 45 , Frame number: 44001.0 , Frame timing: 880.01996
+Frame record in file: 46 , Frame number: 45001.0 , Frame timing: 900.01996
+Frame record in file: 47 , Frame number: 46001.0 , Frame timing: 920.01996
+Frame record in file: 48 , Frame number: 47001.0 , Frame timing: 940.01996
+Frame record in file: 49 , Frame number: 48001.0 , Frame timing: 960.01996
+Frame record in file: 50 , Frame number: 49001.0 , Frame timing: 980.01996
+Frame record in file: 51 , Frame number: 50001.0 , Frame timing: 1000.01996
+Frame record in file: 52 , Frame number: 51001.0 , Frame timing: 1020.01996
+Frame record in file: 53 , Frame number: 52001.0 , Frame timing: 1040.02
+Frame record in file: 54 , Frame number: 53001.0 , Frame timing: 1060.02
+Frame record in file: 55 , Frame number: 54001.0 , Frame timing: 1080.02
+Frame record in file: 56 , Frame number: 55001.0 , Frame timing: 1100.02
+Frame record in file: 57 , Frame number: 56001.0 , Frame timing: 1120.02
+Frame record in file: 58 , Frame number: 57001.0 , Frame timing: 1140.02
+Frame record in file: 59 , Frame number: 58001.0 , Frame timing: 1160.02
+Frame record in file: 60 , Frame number: 59001.0 , Frame timing: 1180.02
+Frame record in file: 61 , Frame number: 60001.0 , Frame timing: 1200.02
+Frame record in file: 62 , Frame number: 61001.0 , Frame timing: 1220.02
+Frame record in file: 63 , Frame number: 62001.0 , Frame timing: 1240.02
+Frame record in file: 64 , Frame number: 63001.0 , Frame timing: 1260.02
+Frame record in file: 65 , Frame number: 64001.0 , Frame timing: 1280.02
+Frame record in file: 66 , Frame number: 65001.0 , Frame timing: 1300.02
+Frame record in file: 67 , Frame number: 66001.0 , Frame timing: 1320.02
+Frame record in file: 68 , Frame number: 67001.0 , Frame timing: 1340.02
+Frame record in file: 69 , Frame number: 68001.0 , Frame timing: 1360.02
+Frame record in file: 70 , Frame number: 69001.0 , Frame timing: 1380.02
+Frame record in file: 71 , Frame number: 70001.0 , Frame timing: 1400.02
+Frame record in file: 72 , Frame number: 71001.0 , Frame timing: 1420.02
+Frame record in file: 73 , Frame number: 72001.0 , Frame timing: 1440.02
+Frame record in file: 74 , Frame number: 73001.0 , Frame timing: 1460.02
+Frame record in file: 75 , Frame number: 74001.0 , Frame timing: 1480.02
+Frame record in file: 76 , Frame number: 75001.0 , Frame timing: 1500.02
+Frame record in file: 77 , Frame number: 76001.0 , Frame timing: 1520.02
+Frame record in file: 78 , Frame number: 77001.0 , Frame timing: 1540.02
+Frame record in file: 79 , Frame number: 78001.0 , Frame timing: 1560.02
+Frame record in file: 80 , Frame number: 79001.0 , Frame timing: 1580.02
+Frame record in file: 81 , Frame number: 80001.0 , Frame timing: 1600.02
+Frame record in file: 82 , Frame number: 81001.0 , Frame timing: 1620.02
+Frame record in file: 83 , Frame number: 82001.0 , Frame timing: 1640.02
+Frame record in file: 84 , Frame number: 83001.0 , Frame timing: 1660.02
+Frame record in file: 85 , Frame number: 84001.0 , Frame timing: 1680.02
+Frame record in file: 86 , Frame number: 85001.0 , Frame timing: 1700.02
+Frame record in file: 87 , Frame number: 86001.0 , Frame timing: 1720.02
+Frame record in file: 88 , Frame number: 87001.0 , Frame timing: 1740.02
+Frame record in file: 89 , Frame number: 88001.0 , Frame timing: 1760.02
+Frame record in file: 90 , Frame number: 89001.0 , Frame timing: 1780.02
+Frame record in file: 91 , Frame number: 90001.0 , Frame timing: 1800.02
+Frame record in file: 92 , Frame number: 91001.0 , Frame timing: 1820.02
+Frame record in file: 93 , Frame number: 92001.0 , Frame timing: 1840.02
+Frame record in file: 94 , Frame number: 93001.0 , Frame timing: 1860.0199
+Frame record in file: 95 , Frame number: 94001.0 , Frame timing: 1880.0199
+Frame record in file: 96 , Frame number: 95001.0 , Frame timing: 1900.0199
+Frame record in file: 97 , Frame number: 96001.0 , Frame timing: 1920.0199
+Frame record in file: 98 , Frame number: 97001.0 , Frame timing: 1940.0199
+Frame record in file: 99 , Frame number: 98001.0 , Frame timing: 1960.0199
+Frame record in file: 100 , Frame number: 99001.0 , Frame timing: 1980.0199
+Frame record in file: 101 , Frame number: 100001.0 , Frame timing: 2000.0199
+Frame record in file: 102 , Frame number: 101001.0 , Frame timing: 2020.0199
+Frame record in file: 103 , Frame number: 102001.0 , Frame timing: 2040.0199
+Frame record in file: 104 , Frame number: 103001.0 , Frame timing: 2060.02
+Frame record in file: 105 , Frame number: 104001.0 , Frame timing: 2080.02
+Frame record in file: 106 , Frame number: 105001.0 , Frame timing: 2100.02
+Frame record in file: 107 , Frame number: 106001.0 , Frame timing: 2120.02
+Frame record in file: 108 , Frame number: 107001.0 , Frame timing: 2140.02
+Frame record in file: 109 , Frame number: 108001.0 , Frame timing: 2160.02
+Frame record in file: 110 , Frame number: 109001.0 , Frame timing: 2180.02
+Frame record in file: 111 , Frame number: 110001.0 , Frame timing: 2200.02
+Frame record in file: 112 , Frame number: 111001.0 , Frame timing: 2220.02
+Frame record in file: 113 , Frame number: 112001.0 , Frame timing: 2240.02
+Frame record in file: 114 , Frame number: 113001.0 , Frame timing: 2260.02
+Frame record in file: 115 , Frame number: 114001.0 , Frame timing: 2280.02
+Frame record in file: 116 , Frame number: 115001.0 , Frame timing: 2300.02
+Frame record in file: 117 , Frame number: 116001.0 , Frame timing: 2320.02
+Frame record in file: 118 , Frame number: 117001.0 , Frame timing: 2340.02
+Frame record in file: 119 , Frame number: 118001.0 , Frame timing: 2360.02
+Frame record in file: 120 , Frame number: 119001.0 , Frame timing: 2380.02
+Frame record in file: 121 , Frame number: 120001.0 , Frame timing: 2400.02
+Frame record in file: 122 , Frame number: 121001.0 , Frame timing: 2420.02
+Frame record in file: 123 , Frame number: 122001.0 , Frame timing: 2440.02
+Frame record in file: 124 , Frame number: 123001.0 , Frame timing: 2460.02
+Frame record in file: 125 , Frame number: 124001.0 , Frame timing: 2480.02
+Frame record in file: 126 , Frame number: 125001.0 , Frame timing: 2500.02
+Frame record in file: 127 , Frame number: 126001.0 , Frame timing: 2520.02
+Frame record in file: 128 , Frame number: 127001.0 , Frame timing: 2540.02
+Frame record in file: 129 , Frame number: 128001.0 , Frame timing: 2560.02
+Frame record in file: 130 , Frame number: 129001.0 , Frame timing: 2580.02
+Frame record in file: 131 , Frame number: 130001.0 , Frame timing: 2600.02
+Frame record in file: 132 , Frame number: 131001.0 , Frame timing: 2620.02
+Frame record in file: 133 , Frame number: 132001.0 , Frame timing: 2640.02
+Frame record in file: 134 , Frame number: 133001.0 , Frame timing: 2660.02
+Frame record in file: 135 , Frame number: 134001.0 , Frame timing: 2680.02
+Frame record in file: 136 , Frame number: 135001.0 , Frame timing: 2700.02
+Frame record in file: 137 , Frame number: 136001.0 , Frame timing: 2720.02
+Frame record in file: 138 , Frame number: 137001.0 , Frame timing: 2740.02
+Frame record in file: 139 , Frame number: 138001.0 , Frame timing: 2760.02
+Frame record in file: 140 , Frame number: 139001.0 , Frame timing: 2780.02
+Frame record in file: 141 , Frame number: 140001.0 , Frame timing: 2800.02
+Frame record in file: 142 , Frame number: 141001.0 , Frame timing: 2820.02
+Frame record in file: 143 , Frame number: 142001.0 , Frame timing: 2840.02
+Frame record in file: 144 , Frame number: 143001.0 , Frame timing: 2860.02
+Frame record in file: 145 , Frame number: 144001.0 , Frame timing: 2880.02
+Frame record in file: 146 , Frame number: 145001.0 , Frame timing: 2900.02
+Frame record in file: 147 , Frame number: 146001.0 , Frame timing: 2920.02
+Frame record in file: 148 , Frame number: 147001.0 , Frame timing: 2940.02
+Frame record in file: 149 , Frame number: 148001.0 , Frame timing: 2960.02
+Frame record in file: 150 , Frame number: 149001.0 , Frame timing: 2980.02
+Frame record in file: 151 , Frame number: 150001.0 , Frame timing: 3000.02
+Total number of frames: 151
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+Reading frame 61
+Reading frame 62
+Reading frame 63
+Reading frame 64
+Reading frame 65
+Reading frame 66
+Reading frame 67
+Reading frame 68
+Reading frame 69
+Reading frame 70
+Reading frame 71
+Reading frame 72
+Reading frame 73
+Reading frame 74
+Reading frame 75
+Reading frame 76
+Reading frame 77
+Reading frame 78
+Reading frame 79
+Reading frame 80
+Reading frame 81
+Reading frame 82
+Reading frame 83
+Reading frame 84
+Reading frame 85
+Reading frame 86
+Reading frame 87
+Reading frame 88
+Reading frame 89
+Reading frame 90
+Reading frame 91
+Reading frame 92
+Reading frame 93
+Reading frame 94
+Reading frame 95
+Reading frame 96
+Reading frame 97
+Reading frame 98
+Reading frame 99
+Reading frame 100
+Reading frame 101
+Reading frame 102
+Reading frame 103
+Reading frame 104
+Reading frame 105
+Reading frame 106
+Reading frame 107
+Reading frame 108
+Reading frame 109
+Reading frame 110
+Reading frame 111
+Reading frame 112
+Reading frame 113
+Reading frame 114
+Reading frame 115
+Reading frame 116
+Reading frame 117
+Reading frame 118
+Reading frame 119
+Reading frame 120
+Reading frame 121
+Reading frame 122
+Reading frame 123
+Reading frame 124
+Reading frame 125
+Reading frame 126
+Reading frame 127
+Reading frame 128
+Reading frame 129
+Reading frame 130
+Reading frame 131
+Reading frame 132
+Reading frame 133
+Reading frame 134
+Reading frame 135
+Reading frame 136
+Reading frame 137
+Reading frame 138
+Reading frame 139
+Reading frame 140
+Reading frame 141
+Reading frame 142
+Reading frame 143
+Reading frame 144
+Reading frame 145
+Reading frame 146
+Reading frame 147
+Reading frame 148
+Reading frame 149
+Reading frame 150
+-------------- READING MOMENTS -----------------
+Reading the file...
+/nasa/pkgsrc/toss4/2023Q3/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/nasa/pkgsrc/toss4/2023Q3/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+MOMENTS READ FOR FRAME: 62
+MOMENTS READ FOR FRAME: 63
+MOMENTS READ FOR FRAME: 64
+MOMENTS READ FOR FRAME: 65
+MOMENTS READ FOR FRAME: 66
+MOMENTS READ FOR FRAME: 67
+MOMENTS READ FOR FRAME: 68
+MOMENTS READ FOR FRAME: 69
+MOMENTS READ FOR FRAME: 70
+MOMENTS READ FOR FRAME: 71
+MOMENTS READ FOR FRAME: 72
+MOMENTS READ FOR FRAME: 73
+MOMENTS READ FOR FRAME: 74
+MOMENTS READ FOR FRAME: 75
+MOMENTS READ FOR FRAME: 76
+MOMENTS READ FOR FRAME: 77
+MOMENTS READ FOR FRAME: 78
+MOMENTS READ FOR FRAME: 79
+MOMENTS READ FOR FRAME: 80
+MOMENTS READ FOR FRAME: 81
+MOMENTS READ FOR FRAME: 82
+MOMENTS READ FOR FRAME: 83
+MOMENTS READ FOR FRAME: 84
+MOMENTS READ FOR FRAME: 85
+MOMENTS READ FOR FRAME: 86
+MOMENTS READ FOR FRAME: 87
+MOMENTS READ FOR FRAME: 88
+MOMENTS READ FOR FRAME: 89
+MOMENTS READ FOR FRAME: 90
+MOMENTS READ FOR FRAME: 91
+MOMENTS READ FOR FRAME: 92
+MOMENTS READ FOR FRAME: 93
+MOMENTS READ FOR FRAME: 94
+MOMENTS READ FOR FRAME: 95
+MOMENTS READ FOR FRAME: 96
+MOMENTS READ FOR FRAME: 97
+MOMENTS READ FOR FRAME: 98
+MOMENTS READ FOR FRAME: 99
+MOMENTS READ FOR FRAME: 100
+MOMENTS READ FOR FRAME: 101
+MOMENTS READ FOR FRAME: 102
+MOMENTS READ FOR FRAME: 103
+MOMENTS READ FOR FRAME: 104
+MOMENTS READ FOR FRAME: 105
+MOMENTS READ FOR FRAME: 106
+MOMENTS READ FOR FRAME: 107
+MOMENTS READ FOR FRAME: 108
+MOMENTS READ FOR FRAME: 109
+MOMENTS READ FOR FRAME: 110
+MOMENTS READ FOR FRAME: 111
+MOMENTS READ FOR FRAME: 112
+MOMENTS READ FOR FRAME: 113
+MOMENTS READ FOR FRAME: 114
+MOMENTS READ FOR FRAME: 115
+MOMENTS READ FOR FRAME: 116
+MOMENTS READ FOR FRAME: 117
+MOMENTS READ FOR FRAME: 118
+MOMENTS READ FOR FRAME: 119
+MOMENTS READ FOR FRAME: 120
+MOMENTS READ FOR FRAME: 121
+MOMENTS READ FOR FRAME: 122
+MOMENTS READ FOR FRAME: 123
+MOMENTS READ FOR FRAME: 124
+MOMENTS READ FOR FRAME: 125
+MOMENTS READ FOR FRAME: 126
+MOMENTS READ FOR FRAME: 127
+MOMENTS READ FOR FRAME: 128
+MOMENTS READ FOR FRAME: 129
+MOMENTS READ FOR FRAME: 130
+MOMENTS READ FOR FRAME: 131
+MOMENTS READ FOR FRAME: 132
+MOMENTS READ FOR FRAME: 133
+MOMENTS READ FOR FRAME: 134
+MOMENTS READ FOR FRAME: 135
+MOMENTS READ FOR FRAME: 136
+MOMENTS READ FOR FRAME: 137
+MOMENTS READ FOR FRAME: 138
+MOMENTS READ FOR FRAME: 139
+MOMENTS READ FOR FRAME: 140
+MOMENTS READ FOR FRAME: 141
+MOMENTS READ FOR FRAME: 142
+MOMENTS READ FOR FRAME: 143
+MOMENTS READ FOR FRAME: 144
+MOMENTS READ FOR FRAME: 145
+MOMENTS READ FOR FRAME: 146
+MOMENTS READ FOR FRAME: 147
+MOMENTS READ FOR FRAME: 148
+MOMENTS READ FOR FRAME: 149
+MOMENTS READ FOR FRAME: 150
+MOMENTS READ FOR FRAME: 151
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv1Ap2Apb2betac0.214betab0.858_128_128x2_dx0.75_t3000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 150006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.429
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 4194304.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 2500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.02
+Frame record in file: 2 , Frame number: 2501.0 , Frame timing: 50.02
+Frame record in file: 3 , Frame number: 5001.0 , Frame timing: 100.02
+Frame record in file: 4 , Frame number: 7501.0 , Frame timing: 150.02
+Frame record in file: 5 , Frame number: 10001.0 , Frame timing: 200.01999
+Frame record in file: 6 , Frame number: 12501.0 , Frame timing: 250.01999
+Frame record in file: 7 , Frame number: 15001.0 , Frame timing: 300.02
+Frame record in file: 8 , Frame number: 17501.0 , Frame timing: 350.02
+Frame record in file: 9 , Frame number: 20001.0 , Frame timing: 400.02
+Frame record in file: 10 , Frame number: 22501.0 , Frame timing: 450.02
+Frame record in file: 11 , Frame number: 25001.0 , Frame timing: 500.02
+Frame record in file: 12 , Frame number: 27501.0 , Frame timing: 550.01996
+Frame record in file: 13 , Frame number: 30001.0 , Frame timing: 600.01996
+Frame record in file: 14 , Frame number: 32501.0 , Frame timing: 650.01996
+Frame record in file: 15 , Frame number: 35001.0 , Frame timing: 700.01996
+Frame record in file: 16 , Frame number: 37501.0 , Frame timing: 750.01996
+Frame record in file: 17 , Frame number: 40001.0 , Frame timing: 800.01996
+Frame record in file: 18 , Frame number: 42501.0 , Frame timing: 850.01996
+Frame record in file: 19 , Frame number: 45001.0 , Frame timing: 900.01996
+Frame record in file: 20 , Frame number: 47501.0 , Frame timing: 950.01996
+Frame record in file: 21 , Frame number: 50001.0 , Frame timing: 1000.01996
+Frame record in file: 22 , Frame number: 52501.0 , Frame timing: 1050.02
+Frame record in file: 23 , Frame number: 55001.0 , Frame timing: 1100.02
+Frame record in file: 24 , Frame number: 57501.0 , Frame timing: 1150.02
+Frame record in file: 25 , Frame number: 60001.0 , Frame timing: 1200.02
+Frame record in file: 26 , Frame number: 62501.0 , Frame timing: 1250.02
+Frame record in file: 27 , Frame number: 65001.0 , Frame timing: 1300.02
+Frame record in file: 28 , Frame number: 67501.0 , Frame timing: 1350.02
+Frame record in file: 29 , Frame number: 70001.0 , Frame timing: 1400.02
+Frame record in file: 30 , Frame number: 72501.0 , Frame timing: 1450.02
+Frame record in file: 31 , Frame number: 75001.0 , Frame timing: 1500.02
+Frame record in file: 32 , Frame number: 77501.0 , Frame timing: 1550.02
+Frame record in file: 33 , Frame number: 80001.0 , Frame timing: 1600.02
+Frame record in file: 34 , Frame number: 82501.0 , Frame timing: 1650.02
+Frame record in file: 35 , Frame number: 85001.0 , Frame timing: 1700.02
+Frame record in file: 36 , Frame number: 87501.0 , Frame timing: 1750.02
+Frame record in file: 37 , Frame number: 90001.0 , Frame timing: 1800.02
+Frame record in file: 38 , Frame number: 92501.0 , Frame timing: 1850.02
+Frame record in file: 39 , Frame number: 95001.0 , Frame timing: 1900.0199
+Frame record in file: 40 , Frame number: 97501.0 , Frame timing: 1950.0199
+Frame record in file: 41 , Frame number: 100001.0 , Frame timing: 2000.0199
+Frame record in file: 42 , Frame number: 102501.0 , Frame timing: 2050.02
+Frame record in file: 43 , Frame number: 105001.0 , Frame timing: 2100.02
+Frame record in file: 44 , Frame number: 107501.0 , Frame timing: 2150.02
+Frame record in file: 45 , Frame number: 110001.0 , Frame timing: 2200.02
+Frame record in file: 46 , Frame number: 112501.0 , Frame timing: 2250.02
+Frame record in file: 47 , Frame number: 115001.0 , Frame timing: 2300.02
+Frame record in file: 48 , Frame number: 117501.0 , Frame timing: 2350.02
+Frame record in file: 49 , Frame number: 120001.0 , Frame timing: 2400.02
+Frame record in file: 50 , Frame number: 122501.0 , Frame timing: 2450.02
+Frame record in file: 51 , Frame number: 125001.0 , Frame timing: 2500.02
+Frame record in file: 52 , Frame number: 127501.0 , Frame timing: 2550.02
+Frame record in file: 53 , Frame number: 130001.0 , Frame timing: 2600.02
+Frame record in file: 54 , Frame number: 132501.0 , Frame timing: 2650.02
+Frame record in file: 55 , Frame number: 135001.0 , Frame timing: 2700.02
+Frame record in file: 56 , Frame number: 137501.0 , Frame timing: 2750.02
+Frame record in file: 57 , Frame number: 140001.0 , Frame timing: 2800.02
+Frame record in file: 58 , Frame number: 142501.0 , Frame timing: 2850.02
+Frame record in file: 59 , Frame number: 145001.0 , Frame timing: 2900.02
+Frame record in file: 60 , Frame number: 147501.0 , Frame timing: 2950.02
+Frame record in file: 61 , Frame number: 150001.0 , Frame timing: 3000.02
+Total number of frames: 61
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv2a_128x3_iden0eps1e-4_dx0.75
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 150006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.429
+HEADER[6]:         nis: 3.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 6291456.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 2000.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.02
+Frame record in file: 2 , Frame number: 2001.0 , Frame timing: 40.02
+Frame record in file: 3 , Frame number: 4001.0 , Frame timing: 80.02
+Frame record in file: 4 , Frame number: 6001.0 , Frame timing: 120.02
+Frame record in file: 5 , Frame number: 8001.0 , Frame timing: 160.01999
+Frame record in file: 6 , Frame number: 10001.0 , Frame timing: 200.01999
+Frame record in file: 7 , Frame number: 12001.0 , Frame timing: 240.01999
+Frame record in file: 8 , Frame number: 14001.0 , Frame timing: 280.02
+Frame record in file: 9 , Frame number: 16001.0 , Frame timing: 320.02
+Frame record in file: 10 , Frame number: 18001.0 , Frame timing: 360.02
+Frame record in file: 11 , Frame number: 20001.0 , Frame timing: 400.02
+Frame record in file: 12 , Frame number: 22001.0 , Frame timing: 440.02
+Frame record in file: 13 , Frame number: 24001.0 , Frame timing: 480.02
+Frame record in file: 14 , Frame number: 26001.0 , Frame timing: 520.01996
+Frame record in file: 15 , Frame number: 28001.0 , Frame timing: 560.01996
+Frame record in file: 16 , Frame number: 30001.0 , Frame timing: 600.01996
+Frame record in file: 17 , Frame number: 32001.0 , Frame timing: 640.01996
+Frame record in file: 18 , Frame number: 34001.0 , Frame timing: 680.01996
+Frame record in file: 19 , Frame number: 36001.0 , Frame timing: 720.01996
+Frame record in file: 20 , Frame number: 38001.0 , Frame timing: 760.01996
+Frame record in file: 21 , Frame number: 40001.0 , Frame timing: 800.01996
+Frame record in file: 22 , Frame number: 42001.0 , Frame timing: 840.01996
+Frame record in file: 23 , Frame number: 44001.0 , Frame timing: 880.01996
+Frame record in file: 24 , Frame number: 46001.0 , Frame timing: 920.01996
+Frame record in file: 25 , Frame number: 48001.0 , Frame timing: 960.01996
+Frame record in file: 26 , Frame number: 50001.0 , Frame timing: 1000.01996
+Frame record in file: 27 , Frame number: 52001.0 , Frame timing: 1040.02
+Frame record in file: 28 , Frame number: 54001.0 , Frame timing: 1080.02
+Frame record in file: 29 , Frame number: 56001.0 , Frame timing: 1120.02
+Frame record in file: 30 , Frame number: 58001.0 , Frame timing: 1160.02
+Frame record in file: 31 , Frame number: 60001.0 , Frame timing: 1200.02
+Frame record in file: 32 , Frame number: 62001.0 , Frame timing: 1240.02
+Frame record in file: 33 , Frame number: 64001.0 , Frame timing: 1280.02
+Frame record in file: 34 , Frame number: 66001.0 , Frame timing: 1320.02
+Frame record in file: 35 , Frame number: 68001.0 , Frame timing: 1360.02
+Frame record in file: 36 , Frame number: 70001.0 , Frame timing: 1400.02
+Frame record in file: 37 , Frame number: 72001.0 , Frame timing: 1440.02
+Frame record in file: 38 , Frame number: 74001.0 , Frame timing: 1480.02
+Frame record in file: 39 , Frame number: 76001.0 , Frame timing: 1520.02
+Frame record in file: 40 , Frame number: 78001.0 , Frame timing: 1560.02
+Frame record in file: 41 , Frame number: 80001.0 , Frame timing: 1600.02
+Frame record in file: 42 , Frame number: 82001.0 , Frame timing: 1640.02
+Frame record in file: 43 , Frame number: 84001.0 , Frame timing: 1680.02
+Frame record in file: 44 , Frame number: 86001.0 , Frame timing: 1720.02
+Frame record in file: 45 , Frame number: 88001.0 , Frame timing: 1760.02
+Frame record in file: 46 , Frame number: 90001.0 , Frame timing: 1800.02
+Frame record in file: 47 , Frame number: 92001.0 , Frame timing: 1840.02
+Frame record in file: 48 , Frame number: 94001.0 , Frame timing: 1880.0199
+Frame record in file: 49 , Frame number: 96001.0 , Frame timing: 1920.0199
+Frame record in file: 50 , Frame number: 98001.0 , Frame timing: 1960.0199
+Frame record in file: 51 , Frame number: 100001.0 , Frame timing: 2000.0199
+Frame record in file: 52 , Frame number: 102001.0 , Frame timing: 2040.0199
+Frame record in file: 53 , Frame number: 104001.0 , Frame timing: 2080.02
+Frame record in file: 54 , Frame number: 106001.0 , Frame timing: 2120.02
+Frame record in file: 55 , Frame number: 108001.0 , Frame timing: 2160.02
+Frame record in file: 56 , Frame number: 110001.0 , Frame timing: 2200.02
+Frame record in file: 57 , Frame number: 112001.0 , Frame timing: 2240.02
+Frame record in file: 58 , Frame number: 114001.0 , Frame timing: 2280.02
+Frame record in file: 59 , Frame number: 116001.0 , Frame timing: 2320.02
+Frame record in file: 60 , Frame number: 118001.0 , Frame timing: 2360.02
+Frame record in file: 61 , Frame number: 120001.0 , Frame timing: 2400.02
+Frame record in file: 62 , Frame number: 122001.0 , Frame timing: 2440.02
+Frame record in file: 63 , Frame number: 124001.0 , Frame timing: 2480.02
+Frame record in file: 64 , Frame number: 126001.0 , Frame timing: 2520.02
+Frame record in file: 65 , Frame number: 128001.0 , Frame timing: 2560.02
+Frame record in file: 66 , Frame number: 130001.0 , Frame timing: 2600.02
+Frame record in file: 67 , Frame number: 132001.0 , Frame timing: 2640.02
+Frame record in file: 68 , Frame number: 134001.0 , Frame timing: 2680.02
+Frame record in file: 69 , Frame number: 136001.0 , Frame timing: 2720.02
+Frame record in file: 70 , Frame number: 138001.0 , Frame timing: 2760.02
+Frame record in file: 71 , Frame number: 140001.0 , Frame timing: 2800.02
+Frame record in file: 72 , Frame number: 142001.0 , Frame timing: 2840.02
+Frame record in file: 73 , Frame number: 144001.0 , Frame timing: 2880.02
+Frame record in file: 74 , Frame number: 146001.0 , Frame timing: 2920.02
+Frame record in file: 75 , Frame number: 148001.0 , Frame timing: 2960.02
+Frame record in file: 76 , Frame number: 150001.0 , Frame timing: 3000.02
+Total number of frames: 76
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+Reading frame 61
+Reading frame 62
+Reading frame 63
+Reading frame 64
+Reading frame 65
+Reading frame 66
+Reading frame 67
+Reading frame 68
+Reading frame 69
+Reading frame 70
+Reading frame 71
+Reading frame 72
+Reading frame 73
+Reading frame 74
+Reading frame 75
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+MOMENTS READ FOR FRAME: 62
+MOMENTS READ FOR FRAME: 63
+MOMENTS READ FOR FRAME: 64
+MOMENTS READ FOR FRAME: 65
+MOMENTS READ FOR FRAME: 66
+MOMENTS READ FOR FRAME: 67
+MOMENTS READ FOR FRAME: 68
+MOMENTS READ FOR FRAME: 69
+MOMENTS READ FOR FRAME: 70
+MOMENTS READ FOR FRAME: 71
+MOMENTS READ FOR FRAME: 72
+MOMENTS READ FOR FRAME: 73
+MOMENTS READ FOR FRAME: 74
+MOMENTS READ FOR FRAME: 75
+MOMENTS READ FOR FRAME: 76
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv2Ap1Ab1betac0.429betab0.858_128_128x2_dx0.75_t3000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 150006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.429
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 4194304.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 2500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.02
+Frame record in file: 2 , Frame number: 2501.0 , Frame timing: 50.02
+Frame record in file: 3 , Frame number: 5001.0 , Frame timing: 100.02
+Frame record in file: 4 , Frame number: 7501.0 , Frame timing: 150.02
+Frame record in file: 5 , Frame number: 10001.0 , Frame timing: 200.01999
+Frame record in file: 6 , Frame number: 12501.0 , Frame timing: 250.01999
+Frame record in file: 7 , Frame number: 15001.0 , Frame timing: 300.02
+Frame record in file: 8 , Frame number: 17501.0 , Frame timing: 350.02
+Frame record in file: 9 , Frame number: 20001.0 , Frame timing: 400.02
+Frame record in file: 10 , Frame number: 22501.0 , Frame timing: 450.02
+Frame record in file: 11 , Frame number: 25001.0 , Frame timing: 500.02
+Frame record in file: 12 , Frame number: 27501.0 , Frame timing: 550.01996
+Frame record in file: 13 , Frame number: 30001.0 , Frame timing: 600.01996
+Frame record in file: 14 , Frame number: 32501.0 , Frame timing: 650.01996
+Frame record in file: 15 , Frame number: 35001.0 , Frame timing: 700.01996
+Frame record in file: 16 , Frame number: 37501.0 , Frame timing: 750.01996
+Frame record in file: 17 , Frame number: 40001.0 , Frame timing: 800.01996
+Frame record in file: 18 , Frame number: 42501.0 , Frame timing: 850.01996
+Frame record in file: 19 , Frame number: 45001.0 , Frame timing: 900.01996
+Frame record in file: 20 , Frame number: 47501.0 , Frame timing: 950.01996
+Frame record in file: 21 , Frame number: 50001.0 , Frame timing: 1000.01996
+Frame record in file: 22 , Frame number: 52501.0 , Frame timing: 1050.02
+Frame record in file: 23 , Frame number: 55001.0 , Frame timing: 1100.02
+Frame record in file: 24 , Frame number: 57501.0 , Frame timing: 1150.02
+Frame record in file: 25 , Frame number: 60001.0 , Frame timing: 1200.02
+Frame record in file: 26 , Frame number: 62501.0 , Frame timing: 1250.02
+Frame record in file: 27 , Frame number: 65001.0 , Frame timing: 1300.02
+Frame record in file: 28 , Frame number: 67501.0 , Frame timing: 1350.02
+Frame record in file: 29 , Frame number: 70001.0 , Frame timing: 1400.02
+Frame record in file: 30 , Frame number: 72501.0 , Frame timing: 1450.02
+Frame record in file: 31 , Frame number: 75001.0 , Frame timing: 1500.02
+Frame record in file: 32 , Frame number: 77501.0 , Frame timing: 1550.02
+Frame record in file: 33 , Frame number: 80001.0 , Frame timing: 1600.02
+Frame record in file: 34 , Frame number: 82501.0 , Frame timing: 1650.02
+Frame record in file: 35 , Frame number: 85001.0 , Frame timing: 1700.02
+Frame record in file: 36 , Frame number: 87501.0 , Frame timing: 1750.02
+Frame record in file: 37 , Frame number: 90001.0 , Frame timing: 1800.02
+Frame record in file: 38 , Frame number: 92501.0 , Frame timing: 1850.02
+Frame record in file: 39 , Frame number: 95001.0 , Frame timing: 1900.0199
+Frame record in file: 40 , Frame number: 97501.0 , Frame timing: 1950.0199
+Frame record in file: 41 , Frame number: 100001.0 , Frame timing: 2000.0199
+Frame record in file: 42 , Frame number: 102501.0 , Frame timing: 2050.02
+Frame record in file: 43 , Frame number: 105001.0 , Frame timing: 2100.02
+Frame record in file: 44 , Frame number: 107501.0 , Frame timing: 2150.02
+Frame record in file: 45 , Frame number: 110001.0 , Frame timing: 2200.02
+Frame record in file: 46 , Frame number: 112501.0 , Frame timing: 2250.02
+Frame record in file: 47 , Frame number: 115001.0 , Frame timing: 2300.02
+Frame record in file: 48 , Frame number: 117501.0 , Frame timing: 2350.02
+Frame record in file: 49 , Frame number: 120001.0 , Frame timing: 2400.02
+Frame record in file: 50 , Frame number: 122501.0 , Frame timing: 2450.02
+Frame record in file: 51 , Frame number: 125001.0 , Frame timing: 2500.02
+Frame record in file: 52 , Frame number: 127501.0 , Frame timing: 2550.02
+Frame record in file: 53 , Frame number: 130001.0 , Frame timing: 2600.02
+Frame record in file: 54 , Frame number: 132501.0 , Frame timing: 2650.02
+Frame record in file: 55 , Frame number: 135001.0 , Frame timing: 2700.02
+Frame record in file: 56 , Frame number: 137501.0 , Frame timing: 2750.02
+Frame record in file: 57 , Frame number: 140001.0 , Frame timing: 2800.02
+Frame record in file: 58 , Frame number: 142501.0 , Frame timing: 2850.02
+Frame record in file: 59 , Frame number: 145001.0 , Frame timing: 2900.02
+Frame record in file: 60 , Frame number: 147501.0 , Frame timing: 2950.02
+Frame record in file: 61 , Frame number: 150001.0 , Frame timing: 3000.02
+Total number of frames: 61
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv2Ap1Ab2betac0.429betab0.858_128_128x2_dx0.75_t3000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 150006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.429
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 4194304.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 2500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.02
+Frame record in file: 2 , Frame number: 2501.0 , Frame timing: 50.02
+Frame record in file: 3 , Frame number: 5001.0 , Frame timing: 100.02
+Frame record in file: 4 , Frame number: 7501.0 , Frame timing: 150.02
+Frame record in file: 5 , Frame number: 10001.0 , Frame timing: 200.01999
+Frame record in file: 6 , Frame number: 12501.0 , Frame timing: 250.01999
+Frame record in file: 7 , Frame number: 15001.0 , Frame timing: 300.02
+Frame record in file: 8 , Frame number: 17501.0 , Frame timing: 350.02
+Frame record in file: 9 , Frame number: 20001.0 , Frame timing: 400.02
+Frame record in file: 10 , Frame number: 22501.0 , Frame timing: 450.02
+Frame record in file: 11 , Frame number: 25001.0 , Frame timing: 500.02
+Frame record in file: 12 , Frame number: 27501.0 , Frame timing: 550.01996
+Frame record in file: 13 , Frame number: 30001.0 , Frame timing: 600.01996
+Frame record in file: 14 , Frame number: 32501.0 , Frame timing: 650.01996
+Frame record in file: 15 , Frame number: 35001.0 , Frame timing: 700.01996
+Frame record in file: 16 , Frame number: 37501.0 , Frame timing: 750.01996
+Frame record in file: 17 , Frame number: 40001.0 , Frame timing: 800.01996
+Frame record in file: 18 , Frame number: 42501.0 , Frame timing: 850.01996
+Frame record in file: 19 , Frame number: 45001.0 , Frame timing: 900.01996
+Frame record in file: 20 , Frame number: 47501.0 , Frame timing: 950.01996
+Frame record in file: 21 , Frame number: 50001.0 , Frame timing: 1000.01996
+Frame record in file: 22 , Frame number: 52501.0 , Frame timing: 1050.02
+Frame record in file: 23 , Frame number: 55001.0 , Frame timing: 1100.02
+Frame record in file: 24 , Frame number: 57501.0 , Frame timing: 1150.02
+Frame record in file: 25 , Frame number: 60001.0 , Frame timing: 1200.02
+Frame record in file: 26 , Frame number: 62501.0 , Frame timing: 1250.02
+Frame record in file: 27 , Frame number: 65001.0 , Frame timing: 1300.02
+Frame record in file: 28 , Frame number: 67501.0 , Frame timing: 1350.02
+Frame record in file: 29 , Frame number: 70001.0 , Frame timing: 1400.02
+Frame record in file: 30 , Frame number: 72501.0 , Frame timing: 1450.02
+Frame record in file: 31 , Frame number: 75001.0 , Frame timing: 1500.02
+Frame record in file: 32 , Frame number: 77501.0 , Frame timing: 1550.02
+Frame record in file: 33 , Frame number: 80001.0 , Frame timing: 1600.02
+Frame record in file: 34 , Frame number: 82501.0 , Frame timing: 1650.02
+Frame record in file: 35 , Frame number: 85001.0 , Frame timing: 1700.02
+Frame record in file: 36 , Frame number: 87501.0 , Frame timing: 1750.02
+Frame record in file: 37 , Frame number: 90001.0 , Frame timing: 1800.02
+Frame record in file: 38 , Frame number: 92501.0 , Frame timing: 1850.02
+Frame record in file: 39 , Frame number: 95001.0 , Frame timing: 1900.0199
+Frame record in file: 40 , Frame number: 97501.0 , Frame timing: 1950.0199
+Frame record in file: 41 , Frame number: 100001.0 , Frame timing: 2000.0199
+Frame record in file: 42 , Frame number: 102501.0 , Frame timing: 2050.02
+Frame record in file: 43 , Frame number: 105001.0 , Frame timing: 2100.02
+Frame record in file: 44 , Frame number: 107501.0 , Frame timing: 2150.02
+Frame record in file: 45 , Frame number: 110001.0 , Frame timing: 2200.02
+Frame record in file: 46 , Frame number: 112501.0 , Frame timing: 2250.02
+Frame record in file: 47 , Frame number: 115001.0 , Frame timing: 2300.02
+Frame record in file: 48 , Frame number: 117501.0 , Frame timing: 2350.02
+Frame record in file: 49 , Frame number: 120001.0 , Frame timing: 2400.02
+Frame record in file: 50 , Frame number: 122501.0 , Frame timing: 2450.02
+Frame record in file: 51 , Frame number: 125001.0 , Frame timing: 2500.02
+Frame record in file: 52 , Frame number: 127501.0 , Frame timing: 2550.02
+Frame record in file: 53 , Frame number: 130001.0 , Frame timing: 2600.02
+Frame record in file: 54 , Frame number: 132501.0 , Frame timing: 2650.02
+Frame record in file: 55 , Frame number: 135001.0 , Frame timing: 2700.02
+Frame record in file: 56 , Frame number: 137501.0 , Frame timing: 2750.02
+Frame record in file: 57 , Frame number: 140001.0 , Frame timing: 2800.02
+Frame record in file: 58 , Frame number: 142501.0 , Frame timing: 2850.02
+Frame record in file: 59 , Frame number: 145001.0 , Frame timing: 2900.02
+Frame record in file: 60 , Frame number: 147501.0 , Frame timing: 2950.02
+Frame record in file: 61 , Frame number: 150001.0 , Frame timing: 3000.02
+Total number of frames: 61
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv2Ap2Apb2betac0.214betab0.858_128_128x2_dx0.75_t3000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 150006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.429
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 4194304.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 2500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.02
+Frame record in file: 2 , Frame number: 2501.0 , Frame timing: 50.02
+Frame record in file: 3 , Frame number: 5001.0 , Frame timing: 100.02
+Frame record in file: 4 , Frame number: 7501.0 , Frame timing: 150.02
+Frame record in file: 5 , Frame number: 10001.0 , Frame timing: 200.01999
+Frame record in file: 6 , Frame number: 12501.0 , Frame timing: 250.01999
+Frame record in file: 7 , Frame number: 15001.0 , Frame timing: 300.02
+Frame record in file: 8 , Frame number: 17501.0 , Frame timing: 350.02
+Frame record in file: 9 , Frame number: 20001.0 , Frame timing: 400.02
+Frame record in file: 10 , Frame number: 22501.0 , Frame timing: 450.02
+Frame record in file: 11 , Frame number: 25001.0 , Frame timing: 500.02
+Frame record in file: 12 , Frame number: 27501.0 , Frame timing: 550.01996
+Frame record in file: 13 , Frame number: 30001.0 , Frame timing: 600.01996
+Frame record in file: 14 , Frame number: 32501.0 , Frame timing: 650.01996
+Frame record in file: 15 , Frame number: 35001.0 , Frame timing: 700.01996
+Frame record in file: 16 , Frame number: 37501.0 , Frame timing: 750.01996
+Frame record in file: 17 , Frame number: 40001.0 , Frame timing: 800.01996
+Frame record in file: 18 , Frame number: 42501.0 , Frame timing: 850.01996
+Frame record in file: 19 , Frame number: 45001.0 , Frame timing: 900.01996
+Frame record in file: 20 , Frame number: 47501.0 , Frame timing: 950.01996
+Frame record in file: 21 , Frame number: 50001.0 , Frame timing: 1000.01996
+Frame record in file: 22 , Frame number: 52501.0 , Frame timing: 1050.02
+Frame record in file: 23 , Frame number: 55001.0 , Frame timing: 1100.02
+Frame record in file: 24 , Frame number: 57501.0 , Frame timing: 1150.02
+Frame record in file: 25 , Frame number: 60001.0 , Frame timing: 1200.02
+Frame record in file: 26 , Frame number: 62501.0 , Frame timing: 1250.02
+Frame record in file: 27 , Frame number: 65001.0 , Frame timing: 1300.02
+Frame record in file: 28 , Frame number: 67501.0 , Frame timing: 1350.02
+Frame record in file: 29 , Frame number: 70001.0 , Frame timing: 1400.02
+Frame record in file: 30 , Frame number: 72501.0 , Frame timing: 1450.02
+Frame record in file: 31 , Frame number: 75001.0 , Frame timing: 1500.02
+Frame record in file: 32 , Frame number: 77501.0 , Frame timing: 1550.02
+Frame record in file: 33 , Frame number: 80001.0 , Frame timing: 1600.02
+Frame record in file: 34 , Frame number: 82501.0 , Frame timing: 1650.02
+Frame record in file: 35 , Frame number: 85001.0 , Frame timing: 1700.02
+Frame record in file: 36 , Frame number: 87501.0 , Frame timing: 1750.02
+Frame record in file: 37 , Frame number: 90001.0 , Frame timing: 1800.02
+Frame record in file: 38 , Frame number: 92501.0 , Frame timing: 1850.02
+Frame record in file: 39 , Frame number: 95001.0 , Frame timing: 1900.0199
+Frame record in file: 40 , Frame number: 97501.0 , Frame timing: 1950.0199
+Frame record in file: 41 , Frame number: 100001.0 , Frame timing: 2000.0199
+Frame record in file: 42 , Frame number: 102501.0 , Frame timing: 2050.02
+Frame record in file: 43 , Frame number: 105001.0 , Frame timing: 2100.02
+Frame record in file: 44 , Frame number: 107501.0 , Frame timing: 2150.02
+Frame record in file: 45 , Frame number: 110001.0 , Frame timing: 2200.02
+Frame record in file: 46 , Frame number: 112501.0 , Frame timing: 2250.02
+Frame record in file: 47 , Frame number: 115001.0 , Frame timing: 2300.02
+Frame record in file: 48 , Frame number: 117501.0 , Frame timing: 2350.02
+Frame record in file: 49 , Frame number: 120001.0 , Frame timing: 2400.02
+Frame record in file: 50 , Frame number: 122501.0 , Frame timing: 2450.02
+Frame record in file: 51 , Frame number: 125001.0 , Frame timing: 2500.02
+Frame record in file: 52 , Frame number: 127501.0 , Frame timing: 2550.02
+Frame record in file: 53 , Frame number: 130001.0 , Frame timing: 2600.02
+Frame record in file: 54 , Frame number: 132501.0 , Frame timing: 2650.02
+Frame record in file: 55 , Frame number: 135001.0 , Frame timing: 2700.02
+Frame record in file: 56 , Frame number: 137501.0 , Frame timing: 2750.02
+Frame record in file: 57 , Frame number: 140001.0 , Frame timing: 2800.02
+Frame record in file: 58 , Frame number: 142501.0 , Frame timing: 2850.02
+Frame record in file: 59 , Frame number: 145001.0 , Frame timing: 2900.02
+Frame record in file: 60 , Frame number: 147501.0 , Frame timing: 2950.02
+Frame record in file: 61 , Frame number: 150001.0 , Frame timing: 3000.02
+Total number of frames: 61
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv2av2.3_128x3_iden0eps1e-4_dx0.75
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 150006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.429
+HEADER[6]:         nis: 4.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 8388608.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 2000.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.02
+Frame record in file: 2 , Frame number: 2001.0 , Frame timing: 40.02
+Frame record in file: 3 , Frame number: 4001.0 , Frame timing: 80.02
+Frame record in file: 4 , Frame number: 6001.0 , Frame timing: 120.02
+Frame record in file: 5 , Frame number: 8001.0 , Frame timing: 160.01999
+Frame record in file: 6 , Frame number: 10001.0 , Frame timing: 200.01999
+Frame record in file: 7 , Frame number: 12001.0 , Frame timing: 240.01999
+Frame record in file: 8 , Frame number: 14001.0 , Frame timing: 280.02
+Frame record in file: 9 , Frame number: 16001.0 , Frame timing: 320.02
+Frame record in file: 10 , Frame number: 18001.0 , Frame timing: 360.02
+Frame record in file: 11 , Frame number: 20001.0 , Frame timing: 400.02
+Frame record in file: 12 , Frame number: 22001.0 , Frame timing: 440.02
+Frame record in file: 13 , Frame number: 24001.0 , Frame timing: 480.02
+Frame record in file: 14 , Frame number: 26001.0 , Frame timing: 520.01996
+Frame record in file: 15 , Frame number: 28001.0 , Frame timing: 560.01996
+Frame record in file: 16 , Frame number: 30001.0 , Frame timing: 600.01996
+Frame record in file: 17 , Frame number: 32001.0 , Frame timing: 640.01996
+Frame record in file: 18 , Frame number: 34001.0 , Frame timing: 680.01996
+Frame record in file: 19 , Frame number: 36001.0 , Frame timing: 720.01996
+Frame record in file: 20 , Frame number: 38001.0 , Frame timing: 760.01996
+Frame record in file: 21 , Frame number: 40001.0 , Frame timing: 800.01996
+Frame record in file: 22 , Frame number: 42001.0 , Frame timing: 840.01996
+Frame record in file: 23 , Frame number: 44001.0 , Frame timing: 880.01996
+Frame record in file: 24 , Frame number: 46001.0 , Frame timing: 920.01996
+Frame record in file: 25 , Frame number: 48001.0 , Frame timing: 960.01996
+Frame record in file: 26 , Frame number: 50001.0 , Frame timing: 1000.01996
+Frame record in file: 27 , Frame number: 52001.0 , Frame timing: 1040.02
+Frame record in file: 28 , Frame number: 54001.0 , Frame timing: 1080.02
+Frame record in file: 29 , Frame number: 56001.0 , Frame timing: 1120.02
+Frame record in file: 30 , Frame number: 58001.0 , Frame timing: 1160.02
+Frame record in file: 31 , Frame number: 60001.0 , Frame timing: 1200.02
+Frame record in file: 32 , Frame number: 62001.0 , Frame timing: 1240.02
+Frame record in file: 33 , Frame number: 64001.0 , Frame timing: 1280.02
+Frame record in file: 34 , Frame number: 66001.0 , Frame timing: 1320.02
+Frame record in file: 35 , Frame number: 68001.0 , Frame timing: 1360.02
+Frame record in file: 36 , Frame number: 70001.0 , Frame timing: 1400.02
+Frame record in file: 37 , Frame number: 72001.0 , Frame timing: 1440.02
+Frame record in file: 38 , Frame number: 74001.0 , Frame timing: 1480.02
+Frame record in file: 39 , Frame number: 76001.0 , Frame timing: 1520.02
+Frame record in file: 40 , Frame number: 78001.0 , Frame timing: 1560.02
+Frame record in file: 41 , Frame number: 80001.0 , Frame timing: 1600.02
+Frame record in file: 42 , Frame number: 82001.0 , Frame timing: 1640.02
+Frame record in file: 43 , Frame number: 84001.0 , Frame timing: 1680.02
+Frame record in file: 44 , Frame number: 86001.0 , Frame timing: 1720.02
+Frame record in file: 45 , Frame number: 88001.0 , Frame timing: 1760.02
+Frame record in file: 46 , Frame number: 90001.0 , Frame timing: 1800.02
+Frame record in file: 47 , Frame number: 92001.0 , Frame timing: 1840.02
+Frame record in file: 48 , Frame number: 94001.0 , Frame timing: 1880.0199
+Frame record in file: 49 , Frame number: 96001.0 , Frame timing: 1920.0199
+Frame record in file: 50 , Frame number: 98001.0 , Frame timing: 1960.0199
+Frame record in file: 51 , Frame number: 100001.0 , Frame timing: 2000.0199
+Frame record in file: 52 , Frame number: 102001.0 , Frame timing: 2040.0199
+Frame record in file: 53 , Frame number: 104001.0 , Frame timing: 2080.02
+Frame record in file: 54 , Frame number: 106001.0 , Frame timing: 2120.02
+Frame record in file: 55 , Frame number: 108001.0 , Frame timing: 2160.02
+Frame record in file: 56 , Frame number: 110001.0 , Frame timing: 2200.02
+Frame record in file: 57 , Frame number: 112001.0 , Frame timing: 2240.02
+Frame record in file: 58 , Frame number: 114001.0 , Frame timing: 2280.02
+Frame record in file: 59 , Frame number: 116001.0 , Frame timing: 2320.02
+Frame record in file: 60 , Frame number: 118001.0 , Frame timing: 2360.02
+Frame record in file: 61 , Frame number: 120001.0 , Frame timing: 2400.02
+Frame record in file: 62 , Frame number: 122001.0 , Frame timing: 2440.02
+Frame record in file: 63 , Frame number: 124001.0 , Frame timing: 2480.02
+Frame record in file: 64 , Frame number: 126001.0 , Frame timing: 2520.02
+Total number of frames: 64
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+Reading frame 61
+Reading frame 62
+Reading frame 63
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+MOMENTS READ FOR FRAME: 62
+MOMENTS READ FOR FRAME: 63
+MOMENTS READ FOR FRAME: 64
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv2av2Ap1Aa1beta0.429_128_128x2_dx0.75_t3000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 150006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.429
+HEADER[6]:         nis: 4.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 8388608.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 2500.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.02
+Frame record in file: 2 , Frame number: 2501.0 , Frame timing: 50.02
+Frame record in file: 3 , Frame number: 5001.0 , Frame timing: 100.02
+Frame record in file: 4 , Frame number: 7501.0 , Frame timing: 150.02
+Frame record in file: 5 , Frame number: 10001.0 , Frame timing: 200.01999
+Frame record in file: 6 , Frame number: 12501.0 , Frame timing: 250.01999
+Frame record in file: 7 , Frame number: 15001.0 , Frame timing: 300.02
+Frame record in file: 8 , Frame number: 17501.0 , Frame timing: 350.02
+Frame record in file: 9 , Frame number: 20001.0 , Frame timing: 400.02
+Frame record in file: 10 , Frame number: 22501.0 , Frame timing: 450.02
+Frame record in file: 11 , Frame number: 25001.0 , Frame timing: 500.02
+Frame record in file: 12 , Frame number: 27501.0 , Frame timing: 550.01996
+Frame record in file: 13 , Frame number: 30001.0 , Frame timing: 600.01996
+Frame record in file: 14 , Frame number: 32501.0 , Frame timing: 650.01996
+Frame record in file: 15 , Frame number: 35001.0 , Frame timing: 700.01996
+Frame record in file: 16 , Frame number: 37501.0 , Frame timing: 750.01996
+Frame record in file: 17 , Frame number: 40001.0 , Frame timing: 800.01996
+Frame record in file: 18 , Frame number: 42501.0 , Frame timing: 850.01996
+Frame record in file: 19 , Frame number: 45001.0 , Frame timing: 900.01996
+Frame record in file: 20 , Frame number: 47501.0 , Frame timing: 950.01996
+Frame record in file: 21 , Frame number: 50001.0 , Frame timing: 1000.01996
+Frame record in file: 22 , Frame number: 52501.0 , Frame timing: 1050.02
+Frame record in file: 23 , Frame number: 55001.0 , Frame timing: 1100.02
+Frame record in file: 24 , Frame number: 57501.0 , Frame timing: 1150.02
+Frame record in file: 25 , Frame number: 60001.0 , Frame timing: 1200.02
+Frame record in file: 26 , Frame number: 62501.0 , Frame timing: 1250.02
+Frame record in file: 27 , Frame number: 65001.0 , Frame timing: 1300.02
+Frame record in file: 28 , Frame number: 67501.0 , Frame timing: 1350.02
+Frame record in file: 29 , Frame number: 70001.0 , Frame timing: 1400.02
+Frame record in file: 30 , Frame number: 72501.0 , Frame timing: 1450.02
+Frame record in file: 31 , Frame number: 75001.0 , Frame timing: 1500.02
+Frame record in file: 32 , Frame number: 77501.0 , Frame timing: 1550.02
+Frame record in file: 33 , Frame number: 80001.0 , Frame timing: 1600.02
+Frame record in file: 34 , Frame number: 82501.0 , Frame timing: 1650.02
+Frame record in file: 35 , Frame number: 85001.0 , Frame timing: 1700.02
+Frame record in file: 36 , Frame number: 87501.0 , Frame timing: 1750.02
+Frame record in file: 37 , Frame number: 90001.0 , Frame timing: 1800.02
+Frame record in file: 38 , Frame number: 92501.0 , Frame timing: 1850.02
+Frame record in file: 39 , Frame number: 95001.0 , Frame timing: 1900.0199
+Frame record in file: 40 , Frame number: 97501.0 , Frame timing: 1950.0199
+Frame record in file: 41 , Frame number: 100001.0 , Frame timing: 2000.0199
+Frame record in file: 42 , Frame number: 102501.0 , Frame timing: 2050.02
+Frame record in file: 43 , Frame number: 105001.0 , Frame timing: 2100.02
+Frame record in file: 44 , Frame number: 107501.0 , Frame timing: 2150.02
+Frame record in file: 45 , Frame number: 110001.0 , Frame timing: 2200.02
+Frame record in file: 46 , Frame number: 112501.0 , Frame timing: 2250.02
+Frame record in file: 47 , Frame number: 115001.0 , Frame timing: 2300.02
+Frame record in file: 48 , Frame number: 117501.0 , Frame timing: 2350.02
+Frame record in file: 49 , Frame number: 120001.0 , Frame timing: 2400.02
+Frame record in file: 50 , Frame number: 122501.0 , Frame timing: 2450.02
+Frame record in file: 51 , Frame number: 125001.0 , Frame timing: 2500.02
+Frame record in file: 52 , Frame number: 127501.0 , Frame timing: 2550.02
+Frame record in file: 53 , Frame number: 130001.0 , Frame timing: 2600.02
+Frame record in file: 54 , Frame number: 132501.0 , Frame timing: 2650.02
+Frame record in file: 55 , Frame number: 135001.0 , Frame timing: 2700.02
+Frame record in file: 56 , Frame number: 137501.0 , Frame timing: 2750.02
+Frame record in file: 57 , Frame number: 140001.0 , Frame timing: 2800.02
+Frame record in file: 58 , Frame number: 142501.0 , Frame timing: 2850.02
+Frame record in file: 59 , Frame number: 145001.0 , Frame timing: 2900.02
+Frame record in file: 60 , Frame number: 147501.0 , Frame timing: 2950.02
+Frame record in file: 61 , Frame number: 150001.0 , Frame timing: 3000.02
+Total number of frames: 61
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+Reading frame 38
+Reading frame 39
+Reading frame 40
+Reading frame 41
+Reading frame 42
+Reading frame 43
+Reading frame 44
+Reading frame 45
+Reading frame 46
+Reading frame 47
+Reading frame 48
+Reading frame 49
+Reading frame 50
+Reading frame 51
+Reading frame 52
+Reading frame 53
+Reading frame 54
+Reading frame 55
+Reading frame 56
+Reading frame 57
+Reading frame 58
+Reading frame 59
+Reading frame 60
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+MOMENTS READ FOR FRAME: 39
+MOMENTS READ FOR FRAME: 40
+MOMENTS READ FOR FRAME: 41
+MOMENTS READ FOR FRAME: 42
+MOMENTS READ FOR FRAME: 43
+MOMENTS READ FOR FRAME: 44
+MOMENTS READ FOR FRAME: 45
+MOMENTS READ FOR FRAME: 46
+MOMENTS READ FOR FRAME: 47
+MOMENTS READ FOR FRAME: 48
+MOMENTS READ FOR FRAME: 49
+MOMENTS READ FOR FRAME: 50
+MOMENTS READ FOR FRAME: 51
+MOMENTS READ FOR FRAME: 52
+MOMENTS READ FOR FRAME: 53
+MOMENTS READ FOR FRAME: 54
+MOMENTS READ FOR FRAME: 55
+MOMENTS READ FOR FRAME: 56
+MOMENTS READ FOR FRAME: 57
+MOMENTS READ FOR FRAME: 58
+MOMENTS READ FOR FRAME: 59
+MOMENTS READ FOR FRAME: 60
+MOMENTS READ FOR FRAME: 61
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.02
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 300006.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.429
+HEADER[6]:         nis: 4.0
+HEADER[7]:          nx: 128.0
+HEADER[8]:          ny: 128.0
+HEADER[9]:         npt: 8388608.0
+HEADER[10]:    ifields: 50.0
+HEADER[11]: iparticles: 2000.0
+HEADER[12]:    ienergy: 50.0
+HEADER[13]:    ifilter: 1250.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 1.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 226001.0 , Frame timing: 4520.02
+Frame record in file: 2 , Frame number: 228001.0 , Frame timing: 4560.02
+Frame record in file: 3 , Frame number: 230001.0 , Frame timing: 4600.02
+Frame record in file: 4 , Frame number: 232001.0 , Frame timing: 4640.02
+Frame record in file: 5 , Frame number: 234001.0 , Frame timing: 4680.02
+Frame record in file: 6 , Frame number: 236001.0 , Frame timing: 4720.02
+Frame record in file: 7 , Frame number: 238001.0 , Frame timing: 4760.02
+Frame record in file: 8 , Frame number: 240001.0 , Frame timing: 4800.02
+Frame record in file: 9 , Frame number: 242001.0 , Frame timing: 4840.02
+Frame record in file: 10 , Frame number: 244001.0 , Frame timing: 4880.02
+Frame record in file: 11 , Frame number: 246001.0 , Frame timing: 4920.02
+Frame record in file: 12 , Frame number: 248001.0 , Frame timing: 4960.02
+Frame record in file: 13 , Frame number: 250001.0 , Frame timing: 5000.02
+Frame record in file: 14 , Frame number: 252001.0 , Frame timing: 5040.02
+Frame record in file: 15 , Frame number: 254001.0 , Frame timing: 5080.02
+Frame record in file: 16 , Frame number: 256001.0 , Frame timing: 5120.02
+Frame record in file: 17 , Frame number: 258001.0 , Frame timing: 5160.02
+Frame record in file: 18 , Frame number: 260001.0 , Frame timing: 5200.02
+Frame record in file: 19 , Frame number: 262001.0 , Frame timing: 5240.02
+Frame record in file: 20 , Frame number: 264001.0 , Frame timing: 5280.02
+Frame record in file: 21 , Frame number: 266001.0 , Frame timing: 5320.02
+Frame record in file: 22 , Frame number: 268001.0 , Frame timing: 5360.02
+Frame record in file: 23 , Frame number: 270001.0 , Frame timing: 5400.02
+Frame record in file: 24 , Frame number: 272001.0 , Frame timing: 5440.02
+Frame record in file: 25 , Frame number: 274001.0 , Frame timing: 5480.02
+Frame record in file: 26 , Frame number: 276001.0 , Frame timing: 5520.02
+Frame record in file: 27 , Frame number: 278001.0 , Frame timing: 5560.02
+Frame record in file: 28 , Frame number: 280001.0 , Frame timing: 5600.02
+Frame record in file: 29 , Frame number: 282001.0 , Frame timing: 5640.02
+Frame record in file: 30 , Frame number: 284001.0 , Frame timing: 5680.02
+Frame record in file: 31 , Frame number: 286001.0 , Frame timing: 5720.02
+Frame record in file: 32 , Frame number: 288001.0 , Frame timing: 5760.02
+Frame record in file: 33 , Frame number: 290001.0 , Frame timing: 5800.02
+Frame record in file: 34 , Frame number: 292001.0 , Frame timing: 5840.02
+Frame record in file: 35 , Frame number: 294001.0 , Frame timing: 5880.02
+Frame record in file: 36 , Frame number: 296001.0 , Frame timing: 5920.02
+Frame record in file: 37 , Frame number: 298001.0 , Frame timing: 5960.02
+Frame record in file: 38 , Frame number: 300001.0 , Frame timing: 6000.02
+Total number of frames: 38
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+Reading frame 33
+Reading frame 34
+Reading frame 35
+Reading frame 36
+Reading frame 37
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
+MOMENTS READ FOR FRAME: 34
+MOMENTS READ FOR FRAME: 35
+MOMENTS READ FOR FRAME: 36
+MOMENTS READ FOR FRAME: 37
+MOMENTS READ FOR FRAME: 38
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_vap1.2Ap1Aa0.75_rdna_0.05
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 120005.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.1
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 33554432.0
+HEADER[10]:    ifields: 100.0
+HEADER[11]: iparticles: 5000.0
+HEADER[12]:    ienergy: 100.0
+HEADER[13]:    ifilter: 1000.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 5001.0 , Frame timing: 125.025
+Frame record in file: 3 , Frame number: 10001.0 , Frame timing: 250.02501
+Frame record in file: 4 , Frame number: 15001.0 , Frame timing: 375.025
+Frame record in file: 5 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 6 , Frame number: 25001.0 , Frame timing: 625.025
+Frame record in file: 7 , Frame number: 30001.0 , Frame timing: 750.025
+Frame record in file: 8 , Frame number: 35001.0 , Frame timing: 875.025
+Frame record in file: 9 , Frame number: 40001.0 , Frame timing: 1000.025
+Frame record in file: 10 , Frame number: 45001.0 , Frame timing: 1125.025
+Frame record in file: 11 , Frame number: 50001.0 , Frame timing: 1250.025
+Frame record in file: 12 , Frame number: 55001.0 , Frame timing: 1375.025
+Frame record in file: 13 , Frame number: 60001.0 , Frame timing: 1500.025
+Frame record in file: 14 , Frame number: 65001.0 , Frame timing: 1625.025
+Frame record in file: 15 , Frame number: 70001.0 , Frame timing: 1750.025
+Frame record in file: 16 , Frame number: 75001.0 , Frame timing: 1875.025
+Frame record in file: 17 , Frame number: 80001.0 , Frame timing: 2000.025
+Frame record in file: 18 , Frame number: 85001.0 , Frame timing: 2125.0251
+Frame record in file: 19 , Frame number: 90001.0 , Frame timing: 2250.0251
+Frame record in file: 20 , Frame number: 95001.0 , Frame timing: 2375.0251
+Frame record in file: 21 , Frame number: 100001.0 , Frame timing: 2500.0251
+Frame record in file: 22 , Frame number: 105001.0 , Frame timing: 2625.0251
+Frame record in file: 23 , Frame number: 110001.0 , Frame timing: 2750.0251
+Frame record in file: 24 , Frame number: 115001.0 , Frame timing: 2875.0251
+Frame record in file: 25 , Frame number: 120001.0 , Frame timing: 3000.0251
+Total number of frames: 25
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_vap1.2Ap3.35Aa2.05rdna_0.007
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 120005.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.1
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 33554432.0
+HEADER[10]:    ifields: 100.0
+HEADER[11]: iparticles: 5000.0
+HEADER[12]:    ienergy: 100.0
+HEADER[13]:    ifilter: 1000.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 5001.0 , Frame timing: 125.025
+Frame record in file: 3 , Frame number: 10001.0 , Frame timing: 250.02501
+Frame record in file: 4 , Frame number: 15001.0 , Frame timing: 375.025
+Frame record in file: 5 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 6 , Frame number: 25001.0 , Frame timing: 625.025
+Frame record in file: 7 , Frame number: 30001.0 , Frame timing: 750.025
+Frame record in file: 8 , Frame number: 35001.0 , Frame timing: 875.025
+Frame record in file: 9 , Frame number: 40001.0 , Frame timing: 1000.025
+Frame record in file: 10 , Frame number: 45001.0 , Frame timing: 1125.025
+Frame record in file: 11 , Frame number: 50001.0 , Frame timing: 1250.025
+Frame record in file: 12 , Frame number: 55001.0 , Frame timing: 1375.025
+Frame record in file: 13 , Frame number: 60001.0 , Frame timing: 1500.025
+Frame record in file: 14 , Frame number: 65001.0 , Frame timing: 1625.025
+Frame record in file: 15 , Frame number: 70001.0 , Frame timing: 1750.025
+Frame record in file: 16 , Frame number: 75001.0 , Frame timing: 1875.025
+Frame record in file: 17 , Frame number: 80001.0 , Frame timing: 2000.025
+Frame record in file: 18 , Frame number: 85001.0 , Frame timing: 2125.0251
+Frame record in file: 19 , Frame number: 90001.0 , Frame timing: 2250.0251
+Frame record in file: 20 , Frame number: 95001.0 , Frame timing: 2375.0251
+Frame record in file: 21 , Frame number: 100001.0 , Frame timing: 2500.0251
+Frame record in file: 22 , Frame number: 105001.0 , Frame timing: 2625.0251
+Frame record in file: 23 , Frame number: 110001.0 , Frame timing: 2750.0251
+Frame record in file: 24 , Frame number: 115001.0 , Frame timing: 2875.0251
+Frame record in file: 25 , Frame number: 120001.0 , Frame timing: 3000.0251
+Total number of frames: 25
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+-> SIMULATION: ../particles.d11_vap1.5Ap1.5Aa1rdna_0.007
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------- HEADER AND FILE INFORMATION -----------------
+Header information:
+HEADER[0]:          dt: 0.025
+HEADER[1]:          dx: 0.75
+HEADER[2]:          dy: 0.75
+HEADER[3]:       itmax: 160005.0
+HEADER[4]:        ifld: 2.0
+HEADER[5]:      betaen: 0.1
+HEADER[6]:         nis: 2.0
+HEADER[7]:          nx: 256.0
+HEADER[8]:          ny: 256.0
+HEADER[9]:         npt: 33554432.0
+HEADER[10]:    ifields: 100.0
+HEADER[11]: iparticles: 5000.0
+HEADER[12]:    ienergy: 100.0
+HEADER[13]:    ifilter: 1000.0
+HEADER[14]:        bx0: 1.0
+HEADER[15]:        by0: 0.0
+HEADER[16]:        bz0: 0.0
+HEADER[17]:      icont: 0.0
+HEADER[18]:      xlres: 0.0
+Frame record in file: 1 , Frame number: 1.0 , Frame timing: 0.025
+Frame record in file: 2 , Frame number: 5001.0 , Frame timing: 125.025
+Frame record in file: 3 , Frame number: 10001.0 , Frame timing: 250.02501
+Frame record in file: 4 , Frame number: 15001.0 , Frame timing: 375.025
+Frame record in file: 5 , Frame number: 20001.0 , Frame timing: 500.025
+Frame record in file: 6 , Frame number: 25001.0 , Frame timing: 625.025
+Frame record in file: 7 , Frame number: 30001.0 , Frame timing: 750.025
+Frame record in file: 8 , Frame number: 35001.0 , Frame timing: 875.025
+Frame record in file: 9 , Frame number: 40001.0 , Frame timing: 1000.025
+Frame record in file: 10 , Frame number: 45001.0 , Frame timing: 1125.025
+Frame record in file: 11 , Frame number: 50001.0 , Frame timing: 1250.025
+Frame record in file: 12 , Frame number: 55001.0 , Frame timing: 1375.025
+Frame record in file: 13 , Frame number: 60001.0 , Frame timing: 1500.025
+Frame record in file: 14 , Frame number: 65001.0 , Frame timing: 1625.025
+Frame record in file: 15 , Frame number: 70001.0 , Frame timing: 1750.025
+Frame record in file: 16 , Frame number: 75001.0 , Frame timing: 1875.025
+Frame record in file: 17 , Frame number: 80001.0 , Frame timing: 2000.025
+Frame record in file: 18 , Frame number: 85001.0 , Frame timing: 2125.0251
+Frame record in file: 19 , Frame number: 90001.0 , Frame timing: 2250.0251
+Frame record in file: 20 , Frame number: 95001.0 , Frame timing: 2375.0251
+Frame record in file: 21 , Frame number: 100001.0 , Frame timing: 2500.0251
+Frame record in file: 22 , Frame number: 105001.0 , Frame timing: 2625.0251
+Frame record in file: 23 , Frame number: 110001.0 , Frame timing: 2750.0251
+Frame record in file: 24 , Frame number: 115001.0 , Frame timing: 2875.0251
+Frame record in file: 25 , Frame number: 120001.0 , Frame timing: 3000.0251
+Frame record in file: 26 , Frame number: 125001.0 , Frame timing: 3125.0251
+Frame record in file: 27 , Frame number: 130001.0 , Frame timing: 3250.0251
+Frame record in file: 28 , Frame number: 135001.0 , Frame timing: 3375.0251
+Frame record in file: 29 , Frame number: 140001.0 , Frame timing: 3500.0251
+Frame record in file: 30 , Frame number: 145001.0 , Frame timing: 3625.0251
+Frame record in file: 31 , Frame number: 150001.0 , Frame timing: 3750.0251
+Frame record in file: 32 , Frame number: 155001.0 , Frame timing: 3875.0251
+Frame record in file: 33 , Frame number: 160001.0 , Frame timing: 4000.0251
+Total number of frames: 33
+-------------- READING VDFS -----------------
+Reading frame 0
+Reading frame 1
+Reading frame 2
+Reading frame 3
+Reading frame 4
+Reading frame 5
+Reading frame 6
+Reading frame 7
+Reading frame 8
+Reading frame 9
+Reading frame 10
+Reading frame 11
+Reading frame 12
+Reading frame 13
+Reading frame 14
+Reading frame 15
+Reading frame 16
+Reading frame 17
+Reading frame 18
+Reading frame 19
+Reading frame 20
+Reading frame 21
+Reading frame 22
+Reading frame 23
+Reading frame 24
+Reading frame 25
+Reading frame 26
+Reading frame 27
+Reading frame 28
+Reading frame 29
+Reading frame 30
+Reading frame 31
+Reading frame 32
+-------------- READING MOMENTS -----------------
+Reading the file...
+MOMENTS READ FOR FRAME: 1
+MOMENTS READ FOR FRAME: 2
+MOMENTS READ FOR FRAME: 3
+MOMENTS READ FOR FRAME: 4
+MOMENTS READ FOR FRAME: 5
+MOMENTS READ FOR FRAME: 6
+MOMENTS READ FOR FRAME: 7
+MOMENTS READ FOR FRAME: 8
+MOMENTS READ FOR FRAME: 9
+MOMENTS READ FOR FRAME: 10
+MOMENTS READ FOR FRAME: 11
+MOMENTS READ FOR FRAME: 12
+MOMENTS READ FOR FRAME: 13
+MOMENTS READ FOR FRAME: 14
+MOMENTS READ FOR FRAME: 15
+MOMENTS READ FOR FRAME: 16
+MOMENTS READ FOR FRAME: 17
+MOMENTS READ FOR FRAME: 18
+MOMENTS READ FOR FRAME: 19
+MOMENTS READ FOR FRAME: 20
+MOMENTS READ FOR FRAME: 21
+MOMENTS READ FOR FRAME: 22
+MOMENTS READ FOR FRAME: 23
+MOMENTS READ FOR FRAME: 24
+MOMENTS READ FOR FRAME: 25
+MOMENTS READ FOR FRAME: 26
+MOMENTS READ FOR FRAME: 27
+MOMENTS READ FOR FRAME: 28
+MOMENTS READ FOR FRAME: 29
+MOMENTS READ FOR FRAME: 30
+MOMENTS READ FOR FRAME: 31
+MOMENTS READ FOR FRAME: 32
+MOMENTS READ FOR FRAME: 33
