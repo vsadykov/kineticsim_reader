@@ -44,7 +44,14 @@ simfiles_spec = [\
 ['particles.d11_pv2av2_rdna0.03375_128x3_iden0eps1e-4_dx0.75_t6000',4,[0,1],[2,3]],\
 ['particles.d11_vap1.2Ap1Aa0.75_rdna_0.05',2,[0],[1]],\
 ['particles.d11_vap1.2Ap3.35Aa2.05rdna_0.007',2,[0],[1]],\
-['particles.d11_vap1.5Ap1.5Aa1rdna_0.007',2,[0],[1]]\
+['particles.d11_vap1.5Ap1.5Aa1rdna_0.007',2,[0],[1]],\
+['particles.d11_e260945ap1.30.5_1',2,[0,1],[]],\
+['particles.d11_e260955ap2.20.4_2',2,[0,1],[]],\
+['particles.d11_e261013ap1.50.6_3',2,[0,1],[]],\
+['particles.d11_e261016ap1.70.6_4',2,[0,1],[]],\
+['particles.d11_e261019ap1.50.4_5',2,[0,1],[]],\
+['particles.d11_e261022ap1.40.4_6',2,[0,1],[]],\
+['particles.d11_e261040ap1.40.4_7',2,[0,1],[]]\
 ]
 
 
@@ -61,6 +68,7 @@ for simfile_spec in simfiles_spec:
     print("-> SIMULATION: "+simfile)
     print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
     print("-------------- HEADER AND FILE INFORMATION -----------------")
+    if ('particles.d11_e26' not in simfile_sh): continue     # ensuring no reprocessing of older files is happening (time-consuming)
     if (simfile_sh != 'particles.d11_pv2av2.3_128x3_iden0eps1e-4_dx0.75'):
         nsim, header = kr.show_fileinfo(simfile,kspi=kspi,nsim_out=True)
     else:
