@@ -42,7 +42,14 @@ simfiles_spec = [\
 ['fields.d10_e261016ap1.70.6_4',2,[0,1],[]],\
 ['fields.d10_e261019ap1.50.4_5',2,[0,1],[]],\
 ['fields.d10_e261022ap1.40.4_6',2,[0,1],[]],\
-['fields.d10_e261040ap1.40.4_7',2,[0,1],[]]\
+['fields.d10_e261040ap1.40.4_7',2,[0,1],[]],\
+['fields.d10_pv1.4av2Ap2Apb2betac0.214betab0.858_128_128x4_dx0.75',4,[0,1],[2,3]],\
+['fields.d10_pv2Ap2Apb2beta_pb0.429_128_128x2_dx0.75',2,[0,1],[]],\
+['fields.d10_pv2av1.4Ap1Aa1betac0.214betab0.858_128_128x4_dx0.75',4,[0,1],[2,3]],\
+['fields.d10_pv2av1.4Ap2Aa2betac0.214betab0.858_128_128x4_dx0.75',4,[0,1],[2,3]],\
+['fields.d10_pv2av1.4Ap2Ab2beta0.429_128_128x4_dx0.75_t3000',4,[0,1],[2,3]],\
+['fields.d10_pv2av2Ap1Aa1beta0.429_128_128x4_dx0.75_t3000',4,[0,1],[2,3]],\
+['fields.d10_pv2av2Ap2Aa2beta0.429_128_128x4_dx0.75_t3000',4,[0,1],[2,3]]\
 ]
 
 # running throught the models

@@ -51,9 +51,20 @@ simfiles_spec = [\
 ['particles.d11_e261016ap1.70.6_4',2,[0,1],[]],\
 ['particles.d11_e261019ap1.50.4_5',2,[0,1],[]],\
 ['particles.d11_e261022ap1.40.4_6',2,[0,1],[]],\
-['particles.d11_e261040ap1.40.4_7',2,[0,1],[]]\
+['particles.d11_e261040ap1.40.4_7',2,[0,1],[]],\
+['particles.d11_pv1.4av2Ap2Apb2betac0.214betab0.858_128_128x4_dx0.75',4,[0,1],[2,3]],\
+['particles.d11_pv2Ap2Apb2beta_pb0.429_128_128x2_dx0.75',2,[0,1],[]],\
+['particles.d11_pv2av1.4Ap1Aa1betac0.214betab0.858_128_128x4_dx0.75',4,[0,1],[2,3]],\
+['particles.d11_pv2av1.4Ap2Aa2betac0.214betab0.858_128_128x4_dx0.75',4,[0,1],[2,3]],\
+['particles.d11_pv2av1.4Ap2Ab2beta0.429_128_128x4_dx0.75_t3000',4,[0,1],[2,3]],\
+['particles.d11_pv2av2Ap1Aa1beta0.429_128_128x4_dx0.75_t3000',4,[0,1],[2,3]],\
+['particles.d11_pv2av2Ap2Aa2beta0.429_128_128x4_dx0.75_t3000',4,[0,1],[2,3]]\
 ]
 
+
+to_process = ['particles.d11_pv1.4av2Ap2Apb2betac0.214betab0.858_128_128x4_dx0.75', 'particles.d11_pv2Ap2Apb2beta_pb0.429_128_128x2_dx0.75', \
+              'particles.d11_pv2av1.4Ap1Aa1betac0.214betab0.858_128_128x4_dx0.75', 'particles.d11_pv2av1.4Ap2Aa2betac0.214betab0.858_128_128x4_dx0.75', \
+              'particles.d11_pv2av1.4Ap2Ab2beta0.429_128_128x4_dx0.75_t3000', 'particles.d11_pv2av2Ap1Aa1beta0.429_128_128x4_dx0.75_t3000', 'particles.d11_pv2av2Ap2Aa2beta0.429_128_128x4_dx0.75_t3000']
 
 for simfile_spec in simfiles_spec:
     # reading specifications for the filename
@@ -68,7 +79,7 @@ for simfile_spec in simfiles_spec:
     print("-> SIMULATION: "+simfile)
     print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
     print("-------------- HEADER AND FILE INFORMATION -----------------")
-    if ('particles.d11_e26' not in simfile_sh): continue     # ensuring no reprocessing of older files is happening (time-consuming)
+    if (simfile_sh not in to_process): continue     # ensuring no reprocessing of older files is happening (time-consuming)
     if (simfile_sh != 'particles.d11_pv2av2.3_128x3_iden0eps1e-4_dx0.75'):
         nsim, header = kr.show_fileinfo(simfile,kspi=kspi,nsim_out=True)
     else:
